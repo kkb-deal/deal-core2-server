@@ -1,0 +1,12 @@
+{
+    "id": "cn.kuick:deal:personal-juke",
+    "type": "Product",
+    "name": "留客版",
+    "description": "快推2980元套餐付费留客版本",
+    "includes": [
+        "/modules/cn/kuick/deal/sales/index.c1.cfg.json",
+        "/modules/cn/kuick/deal/customer/index.c2.cfg.json",
+        "/modules/cn/kuick/deal/file/index.c1.cfg.json",
+        "/modules/cn/kuick/deal/business/index.c5.cfg.json"
+    ]
+}

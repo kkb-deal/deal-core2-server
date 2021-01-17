@@ -1,0 +1,71 @@
+{
+    "id": "cn.kuick:deal:juke",
+    "type": "Product",
+    "name": "留客版",
+    "description": "留客版",
+    "includes": [
+        "/modules/cn/kuick/deal/marketing/index.c3.cfg.json",
+        "/modules/cn/kuick/deal/customer/index.c2.cfg.json",
+        "/modules/cn/kuick/deal/file/file/index.cfg.json",
+        "/modules/cn/kuick/deal/business/index.c3.cfg.json"
+    ],
+    "optionals":[
+        {
+            "id": "cn.kuick.deal:business",
+            "type": "Package",
+            "name": "企业管理",
+            "description": "企业管理",
+            "children": [
+                {
+                    "id": "cn.kuick.deal.business:cloudjuke",
+                    "type": "ModuleRef",
+                    "name": "云聚客配置",
+                    "description": "云聚客配置,ID范围：30700-30740",
+                    "versions": [
+                        {
+                            "id": "latest",
+                            "type": "Version",
+                            "name": "客服版",
+                            "description": "一个员工可绑定多个微信号"
+                        },
+                        {
+                            "id": "c1",
+                            "type": "Version",
+                            "name": "分身版",
+                            "description": "一个员工只能绑定一个微信号"
+                        }
+                    ]
+                },
+                {
+                    "id": "870000",
+                    "type": "Menu",
+                    "name": "新留客管理",
+                    "description": "新留客管理",
+                    "children": [
+                        {
+                            "id": "871000",
+                            "type": "MenuItem",
+                            "name": "营销号管理",
+                            "description": "营销号管理",
+                            "children": []
+                        },
+                        {
+                            "id": "872000",
+                            "type": "MenuItem",
+                            "name": "营销群管理",
+                            "description": "营销群管理",
+                            "children": []
+                        },
+                        {
+                            "id": "873000",
+                            "type": "MenuItem",
+                            "name": "质检规则管理",
+                            "description": "质检规则管理",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

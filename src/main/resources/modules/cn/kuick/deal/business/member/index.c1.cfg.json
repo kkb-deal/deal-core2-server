@@ -1,0 +1,60 @@
+{
+    "id": "cn.kuick.deal.business:member:c1",
+    "type": "Module",
+    "name": "企业成员",
+    "description": "企业成员,ID范围：110000-110090",
+    "menus": [
+        {
+            "id": "30000",
+            "type": "Menu",
+            "name": "企业管理",
+            "description": "企业管理主菜单",
+            "children": [
+                {
+                    "id": "40000",
+                    "type": "MenuItem",
+                    "name": "企业成员",
+                    "description": "企业成员",
+                    "children": []
+                }
+            ]
+        }
+    ],
+    "children":[
+        {
+            "id": "40100",
+            "type": "Button",
+            "name": "添加成员",
+            "description": "添加成员",
+            "children": []
+        },
+        {
+            "id": "40200",
+            "type": "Button",
+            "name": "转让项目",
+            "description": "转让项目",
+            "children": []
+        },
+        {
+            "id": "40300",
+            "type": "Button",
+            "name": "设置成员角色",
+            "description": "设置成员角色",
+            "children": []
+        },
+        {
+            "id": "40400",
+            "type": "Button",
+            "name": "移除企业成员",
+            "description": "移除企业成员",
+            "children": []
+        },
+        {
+            "id": "110080",
+            "type": "Button",
+            "name": "role",
+            "description": "职能角色",
+            "children": []
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "id": "cn.kuick.deal:business:c4",
+    "type": "Package",
+    "name": "企业管理c4",
+    "description": "合并c1,c3",
+    "includes": [
+        "/modules/cn/kuick/deal/business/member/index.c1.cfg.json",
+        "/modules/cn/kuick/deal/business/hypercard/index.cfg.json",
+        "/modules/cn/kuick/deal/business/license/index.c1.cfg.json",
+        "/modules/cn/kuick/deal/business/cloudjuke/index.cfg.json"
+    ]
+}

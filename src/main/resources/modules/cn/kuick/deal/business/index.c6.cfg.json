@@ -1,0 +1,10 @@
+{
+    "id": "cn.kuick.deal:business:c6",
+    "type": "Package",
+    "name": "企业管理c6",
+    "description": "企业管理",
+    "includes": [
+        "/modules/cn/kuick/deal/business/member/index.cfg.json",
+        "/modules/cn/kuick/deal/business/license/index.c3.cfg.json"
+    ]
+}

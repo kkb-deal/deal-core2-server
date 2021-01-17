@@ -1,0 +1,8 @@
+FROM registry.kuick.cn/cc/deal-core2-tester:base
+
+# Copy project to docker
+RUN rm -rf $PROJECT_PATH
+COPY . $PROJECT_PATH
+
+# build
+RUN ./gradlew clean build

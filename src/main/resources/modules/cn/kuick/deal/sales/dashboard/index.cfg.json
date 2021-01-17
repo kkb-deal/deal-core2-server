@@ -1,0 +1,46 @@
+{
+    "id": "cn.kuick.deal:sales",
+    "type": "Module",
+    "name": "销售仪表盘",
+    "description": "销售仪表盘，ID范围：21110-21119",
+    "menus": [
+        {
+            "id": "20000",
+            "type": "Menu",
+            "name": "销售管理",
+            "description": "销售管理",
+            "children": [
+                {
+                    "id": "21100",
+                    "type": "MenuItem",
+                    "name": "销售数据概览",
+                    "description": "销售数据概览",
+                    "children": []
+                }
+            ]
+        }
+    ],
+    "children":[
+        {
+            "id": "21110",
+            "type": "Button",
+            "name": "按部门",
+            "description": "按部门",
+            "children": []
+        },
+        {
+            "id": "21120",
+            "type": "Button",
+            "name": "按销售",
+            "description": "按销售",
+            "children": []
+        },
+        {
+            "id": "21130",
+            "type": "Button",
+            "name": "我的",
+            "description": "我的",
+            "children": []
+        }
+    ]
+}

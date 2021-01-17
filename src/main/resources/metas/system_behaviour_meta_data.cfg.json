@@ -1,0 +1,1569 @@
+[
+	{
+		"action": "access_site",
+		"metaData": [
+			{
+				"action": "access_site",
+				"name": "web_access_log_id",
+				"type": "text",
+				"title": "网站访问记录id"
+			},
+			{
+				"action": "access_site",
+				"name": "title",
+				"type": "text",
+				"title": "访问页面标题"
+			},
+			{
+				"action": "access_site",
+				"name": "url",
+				"type": "text",
+				"title": "访问页面url"
+			},
+			{
+				"action": "access_site",
+				"name": "site",
+				"type": "text",
+				"title": "访问页面域名"
+			},
+			{
+				"action": "access_site",
+				"name": "system",
+				"type": "text",
+				"title": "访问设备操作系统"
+			},
+			{
+				"action": "access_site",
+				"name": "keyword",
+				"type": "text",
+				"title": "搜索关键词"
+			},
+			{
+				"action": "access_site",
+				"name": "client",
+				"type": "text",
+				"title": "访问客户端"
+			},
+			{
+				"action": "access_site",
+				"name": "referrer",
+				"type": "text",
+				"title": "访问来源地址"
+			},
+			{
+				"action": "access_site",
+				"name": "ip",
+				"type": "text",
+				"title": "访问ip地址"
+			}
+		]
+	},
+	{
+		"action": "access_site_end",
+		"metaData": [
+			{
+				"action": "access_site_end",
+				"name": "web_access_log_id",
+				"type": "text",
+				"title": "网站访问记录id"
+			},
+			{
+				"action": "access_site_end",
+				"name": "site",
+				"type": "text",
+				"title": "访问页面域名"
+			},
+			{
+				"action": "access_site_end",
+				"name": "referrer",
+				"type": "text",
+				"title": "访问来源地址"
+			},
+			{
+				"action": "access_site_end",
+				"name": "referrerTitle",
+				"type": "text",
+				"title": "访问来源地址标题"
+			},
+			{
+				"action": "access_site_end",
+				"name": "viewTime",
+				"type": "date",
+				"title": "网站访问时间"
+			},
+			{
+				"action": "access_site_end",
+				"name": "leaveTime",
+				"type": "date",
+				"title": "网站访问结束时间"
+			}
+		]
+	},
+	{
+		"action": "web_page_view",
+		"metaData": [
+			{
+				"action": "web_page_view",
+				"name": "web_access_log_id",
+				"type": "text",
+				"title": "网站访问记录id"
+			},
+			{
+				"action": "web_page_view",
+				"name": "url",
+				"type": "text",
+				"title": "浏览页面url"
+			},
+			{
+				"action": "web_page_view",
+				"name": "title",
+				"type": "text",
+				"title": "浏览页面标题"
+			}
+		]
+	},
+	{
+		"action": "web_page_leave",
+		"metaData": [
+			{
+				"action": "web_page_leave",
+				"name": "web_access_log_id",
+				"type": "text",
+				"title": "网站访问记录id"
+			},
+			{
+				"action": "web_page_leave",
+				"name": "web_page_view_log_id",
+				"type": "text",
+				"title": "页面浏览记录id"
+			},
+			{
+				"action": "web_page_leave",
+				"name": "url",
+				"type": "text",
+				"title": "浏览页面url"
+			},
+			{
+				"action": "web_page_leave",
+				"name": "title",
+				"type": "text",
+				"title": "浏览页面标题"
+			},
+			{
+				"action": "web_page_leave",
+				"name": "viewTime",
+				"type": "date",
+				"title": "页面浏览时间"
+			},
+			{
+				"action": "web_page_leave",
+				"name": "leaveTime",
+				"type": "date",
+				"title": "页面浏览结束时间"
+			},
+			{
+				"action": "web_page_leave",
+				"name": "lastLeaveTime",
+				"type": "date",
+				"title": "上次页面浏览结束时间"
+			}
+		]
+	},
+	{
+		"action": "link_leave_log",
+		"metaData": [
+			{
+				"action": "link_leave_log",
+				"name": "linkId",
+				"type": "text",
+				"title": "链接记录id"
+			},
+			{
+				"action": "link_leave_log",
+				"name": "linkType",
+				"type": "number",
+				"title": "链接类型"
+			},
+			{
+				"action": "link_leave_log",
+				"name": "linkViewLogId",
+				"type": "text",
+				"title": "链接浏览记录id"
+			},
+			{
+				"action": "link_leave_log",
+				"name": "title",
+				"type": "text",
+				"title": "链接标题"
+			},
+			{
+				"action": "link_leave_log",
+				"name": "linkSrc",
+				"type": "text",
+				"title": "链接来源"
+			},
+			{
+				"action": "link_leave_log",
+				"name": "viewTime",
+				"type": "date",
+				"title": "链接浏览时间"
+			},
+			{
+				"action": "link_leave_log",
+				"name": "leaveTime",
+				"type": "date",
+				"title": "链接浏览结束时间"
+			},
+			{
+				"action": "link_leave_log",
+				"name": "lastLeaveTime",
+				"type": "date",
+				"title": "上次链接浏览结束时间"
+			}
+		]
+	},
+	{
+		"action": "link_view_clue",
+		"metaData": [
+			{
+				"action": "link_view_clue",
+				"name": "linkId",
+				"type": "text",
+				"title": "链接记录id"
+			},
+			{
+				"action": "link_view_clue",
+				"name": "linkType",
+				"type": "number",
+				"title": "链接类型"
+			},
+			{
+				"action": "link_view_clue",
+				"name": "linkViewLogId",
+				"type": "text",
+				"title": "链接浏览记录id"
+			},
+			{
+				"action": "link_view_clue",
+				"name": "linkName",
+				"type": "text",
+				"title": "链接名称"
+			},
+			{
+				"action": "link_view_clue",
+				"name": "clueId",
+				"type": "text",
+				"title": "线索记录id"
+			},
+			{
+				"action": "link_view_clue",
+				"name": "clueFormType",
+				"type": "text",
+				"title": "线索表单类型"
+			},
+			{
+				"action": "link_view_clue",
+				"name": "clueName",
+				"type": "text",
+				"title": "姓名"
+			},
+			{
+				"action": "link_view_clue",
+				"name": "clueName",
+				"type": "text",
+				"title": "姓名"
+			},
+			{
+				"action": "link_view_clue",
+				"name": "clueTitle",
+				"type": "text",
+				"title": "职位"
+			},
+			{
+				"action": "link_view_clue",
+				"name": "clueEmail",
+				"type": "text",
+				"title": "邮箱"
+			},
+			{
+				"action": "link_view_clue",
+				"name": "cluePhone",
+				"type": "text",
+				"title": "手机号"
+			},
+			{
+				"action": "link_view_clue",
+				"name": "clueCompany",
+				"type": "text",
+				"title": "公司"
+			},
+			{
+				"action": "link_view_clue",
+				"name": "clueWebsite",
+				"type": "text",
+				"title": "网址"
+			},
+			{
+				"action": "link_view_clue",
+				"name": "clueInterested",
+				"type": "text",
+				"title": "兴趣"
+			},
+			{
+				"action": "link_view_clue",
+				"name": "clueExts",
+				"type": "text",
+				"title": "扩展值"
+			}
+		]
+	},
+	{
+		"action": "link_spread",
+		"metaData": [
+			{
+				"action": "link_spread",
+				"name": "spreadId",
+				"type": "text",
+				"title": "转发记录id"
+			},
+			{
+				"action": "link_spread",
+				"name": "linkId",
+				"type": "text",
+				"title": "链接记录id"
+			},
+			{
+				"action": "link_spread",
+				"name": "linkViewLogId",
+				"type": "text",
+				"title": "链接浏览记录id"
+			}
+		]
+	},
+	{
+		"action": "file_view_duration",
+		"metaData": [
+			{
+				"action": "file_view_duration",
+				"name": "fileViewDurationId",
+				"type": "text",
+				"title": "文件翻页记录id"
+			},
+			{
+				"action": "file_view_duration",
+				"name": "linkViewLogId",
+				"type": "text",
+				"title": "链接浏览记录id"
+			}
+		]
+	},
+	{
+		"action": "app_launch",
+		"metaData": [
+			{
+				"action": "app_launch",
+				"name": "app_launch_id",
+				"type": "text",
+				"title": "App启动记录id"
+			},
+			{
+				"action": "app_launch",
+				"name": "launch_time",
+				"type": "number",
+				"title": "App启动时间"
+			},
+			{
+				"action": "app_launch",
+				"name": "exit_time",
+				"type": "date",
+				"title": "App退出时间"
+			},
+			{
+				"action": "app_launch",
+				"name": "client_identity",
+				"type": "text",
+				"title": "客户端身份"
+			},
+			{
+				"action": "app_launch",
+				"name": "client_type",
+				"type": "text",
+				"title": "客户端类型"
+			}
+		]
+	},
+	{
+		"action": "app_launch_end",
+		"metaData": [
+			{
+				"action": "app_launch_end",
+				"name": "appLaunchId",
+				"type": "number",
+				"title": "App启动结束时间"
+			},
+			{
+				"action": "app_launch_end",
+				"name": "viewTime",
+				"type": "number",
+				"title": "App启动时间"
+			},
+			{
+				"action": "app_launch_end",
+				"name": "leaveTime",
+				"type": "number",
+				"title": "App启动结束时间"
+			},
+			{
+				"action": "app_launch_end",
+				"name": "lastLeaveTime",
+				"type": "number",
+				"title": "App上次启动结束时间"
+			}
+		]
+	},
+	{
+		"action": "view_app_page",
+		"metaData": [
+			{
+				"action": "view_app_page",
+				"name": "title",
+				"type": "text",
+				"title": "App浏览页面标题"
+			},
+			{
+				"action": "view_app_page",
+				"name": "app_page_view_log_id",
+				"type": "text",
+				"title": "App浏览页面记录id"
+			}
+		]
+	},
+	{
+		"action": "entry_app",
+		"metaData": []
+	},
+	{
+		"action": "exit_app",
+		"metaData": []
+	},
+	{
+		"action": "scan_activity_qrcode",
+		"metaData": [
+			{
+				"action": "scan_activity_qrcode",
+				"name": "activityId",
+				"type": "text",
+				"title": "活动二维码记录id"
+			},
+			{
+				"action": "scan_activity_qrcode",
+				"name": "officialAccountId",
+				"type": "text",
+				"title": "公众号id"
+			},
+			{
+				"action": "scan_activity_qrcode",
+				"name": "origin",
+				"type": "text",
+				"title": "来源"
+			},
+			{
+				"action": "scan_activity_qrcode",
+				"name": "activityName",
+				"type": "text",
+				"title": "活动二维码名称"
+			},
+			{
+				"action": "scan_activity_qrcode",
+				"name": "isNewFans",
+				"type": "boolean",
+				"title": "是否为新粉丝"
+			},
+			{
+				"action": "scan_activity_qrcode",
+				"name": "new_fans_push",
+				"type": "boolean",
+				"title": "是否触发新粉丝推送"
+			},
+			{
+				"action": "scan_activity_qrcode",
+				"name": "openid",
+				"type": "text",
+				"title": "粉丝openid"
+			},
+			{
+				"action": "scan_activity_qrcode",
+				"name": "officialAccountName",
+				"type": "text",
+				"title": "公众号名称"
+			}
+		]
+	},
+	{
+		"action": "scan_promotion_plan_qrcode",
+		"metaData": [
+			{
+				"action": "scan_promotion_plan_qrcode",
+				"name": "promotionPlanId",
+				"type": "text",
+				"title": "推广计划记录id"
+			},
+			{
+				"action": "scan_promotion_plan_qrcode",
+				"name": "promotionPlanName",
+				"type": "text",
+				"title": "推广计划名称"
+			},
+			{
+				"action": "scan_promotion_plan_qrcode",
+				"name": "officialAccountId",
+				"type": "text",
+				"title": "公众号id"
+			},
+			{
+				"action": "scan_promotion_plan_qrcode",
+				"name": "origin",
+				"type": "text",
+				"title": "来源"
+			},
+			{
+				"action": "scan_promotion_plan_qrcode",
+				"name": "isNewFans",
+				"type": "boolean",
+				"title": "是否为新粉丝"
+			},
+			{
+				"action": "scan_promotion_plan_qrcode",
+				"name": "new_fans_push",
+				"type": "boolean",
+				"title": "是否触发新粉丝推送"
+			},
+			{
+				"action": "scan_promotion_plan_qrcode",
+				"name": "promotionCustomerId",
+				"type": "text",
+				"title": "推广客户id"
+			},
+			{
+				"action": "scan_promotion_plan_qrcode",
+				"name": "openid",
+				"type": "text",
+				"title": "粉丝openid"
+			},
+			{
+				"action": "scan_promotion_plan_qrcode",
+				"name": "officialAccountName",
+				"type": "text",
+				"title": "公众号名称"
+			},
+			{
+				"action": "scan_promotion_plan_qrcode",
+				"name": "promotionOpenid",
+				"type": "text",
+				"title": "推广粉丝openid"
+			},
+			{
+				"action": "scan_promotion_plan_qrcode",
+				"name": "isPromotionPlanNewFans",
+				"type": "boolean",
+				"title": "是否为推广计划新粉丝扫码、true：推广计划新粉丝、false：推广计划老粉丝"
+			}
+		]
+	},
+	{
+		"action": "trigger_promotion_plan",
+		"metaData": [
+			{
+				"action": "trigger_promotion_plan",
+				"name": "promotionPlanId",
+				"type": "text",
+				"title": "推广计划记录id"
+			},
+			{
+				"action": "trigger_promotion_plan",
+				"name": "promotionPlanName",
+				"type": "text",
+				"title": "推广计划名称"
+			},
+			{
+				"action": "trigger_promotion_plan",
+				"name": "officialAccountId",
+				"type": "text",
+				"title": "公众号id"
+			}
+		]
+	},
+	{
+		"action": "weixin_send_text",
+		"metaData": [
+			{
+				"action": "weixin_send_text",
+				"name": "officialAccountId",
+				"type": "text",
+				"title": "公众号id"
+			},
+			{
+				"action": "weixin_send_text",
+				"name": "text",
+				"type": "text",
+				"title": "发送文本内容"
+			}
+		]
+	},
+	{
+		"action": "remote_demo",
+		"metaData": [
+
+		]
+	},
+	{
+		"action": "submit_form",
+		"metaData": [
+
+		]
+	},
+	{
+		"action": "call_end",
+		"metaData": [
+			{
+				"action": "call_end",
+				"name": "record_id",
+				"type": "text",
+				"title": "通话记录id"
+			},
+			{
+				"action": "call_end",
+				"name": "duration",
+				"type": "number",
+				"title": "通话时长"
+			}
+		]
+	},
+	{
+		"action": "daka",
+		"metaData": [
+			{
+				"action": "daka",
+				"name": "activityId",
+				"type": "text",
+				"title": "打卡活动记录id"
+			},
+			{
+				"action": "daka",
+				"name": "subjectId",
+				"type": "text",
+				"title": "打卡主题记录id"
+			},
+			{
+				"action": "daka",
+				"name": "journalId",
+				"type": "text",
+				"title": "打卡日记记录id"
+			}
+		]
+	},
+	{
+		"action": "card_open",
+		"metaData": [
+			{
+				"action": "card_open",
+				"name": "cardAppId",
+				"type": "text",
+				"title": "名片项目id"
+			},
+			{
+				"action": "card_open",
+				"name": "fromCustomerId",
+				"type": "text",
+				"title": "来源客户id"
+			},
+			{
+				"action": "card_open",
+				"name": "cardKuickUserId",
+				"type": "text",
+				"title": "名片Kuick用户id"
+			}
+		]
+	},
+	{
+		"action": "card_spread",
+		"metaData": [
+			{
+				"action": "card_spread",
+				"name": "cardAppId",
+				"type": "text",
+				"title": "名片项目id"
+			},
+			{
+				"action": "card_spread",
+				"name": "fromCustomerId",
+				"type": "text",
+				"title": "来源客户id"
+			},
+			{
+				"action": "card_spread",
+				"name": "cardKuickUserId",
+				"type": "text",
+				"title": "名片Kuick用户id"
+			}
+		]
+	},
+	{
+		"action": "attend_meeting_record",
+		"metaData": [
+			{
+				"action": "attend_meeting_record",
+				"name": "customer_id",
+				"type": "text",
+				"title": "客户id"
+			}
+		]
+	},
+	{
+		"action": "audio_record",
+		"metaData": [
+			{
+				"action": "audio_record",
+				"name": "customer_id",
+				"type": "text",
+				"title": "客户id"
+			},
+			{
+				"action": "audio_record",
+				"name": "audio_record_id",
+				"type": "text",
+				"title": "录音记录id"
+			}
+		]
+	},
+	{
+		"action": "weixin_follow",
+		"metaData": [
+			{
+				"action": "weixin_follow",
+				"name": "officialAccountId",
+				"type": "text",
+				"title": "公众号id"
+			},
+			{
+				"action": "weixin_follow",
+				"name": "isNewFans",
+				"type": "boolean",
+				"title": "是否为新粉丝"
+			},
+			{
+				"action": "weixin_follow",
+				"name": "origin",
+				"type": "text",
+				"title": "关注来源"
+			},
+			{
+				"action": "weixin_follow",
+				"name": "activityId",
+				"type": "text",
+				"title": "活动二维码id"
+			},
+			{
+				"action": "weixin_follow",
+				"name": "activityName",
+				"type": "text",
+				"title": "活动二维码名称"
+			},
+			{
+				"action": "weixin_follow",
+				"name": "new_fans_push",
+				"type": "text",
+				"title": "新粉丝推送"
+			},
+			{
+				"action": "weixin_follow",
+				"name": "promotionPlanId",
+				"type": "text",
+				"title": "推广计划id"
+			},
+			{
+				"action": "weixin_follow",
+				"name": "promotionPlanName",
+				"type": "text",
+				"title": "推广计划名称"
+			}
+		]
+	},
+	{
+		"action": "cancel_weixin_follow",
+		"metaData": [
+			{
+				"action": "cancel_weixin_follow",
+				"name": "officialAccountId",
+				"type": "text",
+				"title": "公众号id"
+			}
+		]
+	},
+	{
+		"action": "chat_record",
+		"metaData": [
+			{
+				"action": "chat_record",
+				"name": "chat_content",
+				"type": "text",
+				"title": "聊天内容"
+			}
+		]
+	},
+	{
+		"action": "visit_record",
+		"metaData": [
+			{
+				"action": "visit_record",
+				"name": "customer_id",
+				"type": "text",
+				"title": "客户id"
+			}
+		]
+	},
+	{
+		"action": "weixin_scan_qrcode",
+		"metaData": [
+			{
+				"action": "weixin_scan_qrcode",
+				"name": "eventKey",
+				"type": "text",
+				"title": "事件Key"
+			},
+			{
+				"action": "weixin_scan_qrcode",
+				"name": "event",
+				"type": "text",
+				"title": "事件"
+			},
+			{
+				"action": "weixin_scan_qrcode",
+				"name": "officialAccountId",
+				"type": "text",
+				"title": "公众号id"
+			}
+		]
+	},
+	{
+		"action": "send_data_by_mail",
+		"metaData": [
+			{
+				"action": "send_data_by_mail",
+				"name": "linkId",
+				"type": "text",
+				"title": "链接id"
+			}
+		]
+	},
+	{
+		"action": "send_data_by_officialaccount",
+		"metaData": [
+			{
+				"action": "send_data_by_officialaccount",
+				"name": "linkId",
+				"type": "text",
+				"title": "链接id"
+			}
+		]
+	},
+	{
+		"action": "send_data_by_other_way",
+		"metaData": [
+			{
+				"action": "send_data_by_other_way",
+				"name": "linkId",
+				"type": "text",
+				"title": "链接id"
+			}
+		]
+	},
+	{
+		"action": "send_data_by_wechat",
+		"metaData": [
+			{
+				"action": "send_data_by_wechat",
+				"name": "linkId",
+				"type": "text",
+				"title": "链接id"
+			}
+		]
+	},
+	{
+		"action": "send_message",
+		"metaData": [
+			{
+				"action": "send_message",
+				"name": "linkId",
+				"type": "text",
+				"title": "链接id"
+			}
+		]
+	},
+	{
+		"action": "card_chat_start",
+		"metaData": [
+			{
+				"action": "card_chat_start",
+				"name": "fromOpenId",
+				"type": "text",
+				"title": "来源openid"
+			},
+			{
+				"action": "card_chat_start",
+				"name": "fromCustomerId",
+				"type": "text",
+				"title": "来源客户id"
+			},
+			{
+				"action": "card_chat_start",
+				"name": "toKuickUserId",
+				"type": "text",
+				"title": "接收Kuick用户id"
+			},
+			{
+				"action": "card_chat_start",
+				"name": "sessionId",
+				"type": "text",
+				"title": "会话id"
+			}
+		]
+	},
+	{
+		"action": "card_chat_send_msg",
+		"metaData": [
+			{
+				"action": "card_chat_send_msg",
+				"name": "fromOpenId",
+				"type": "text",
+				"title": "来源openid"
+			},
+			{
+				"action": "card_chat_send_msg",
+				"name": "fromCustomerId",
+				"type": "text",
+				"title": "来源客户id"
+			},
+			{
+				"action": "card_chat_send_msg",
+				"name": "toKuickUserId",
+				"type": "text",
+				"title": "接收Kuick用户id"
+			},
+			{
+				"action": "card_chat_send_msg",
+				"name": "sessionId",
+				"type": "text",
+				"title": "会话id"
+			},
+			{
+				"action": "card_chat_send_msg",
+				"name": "text",
+				"type": "text",
+				"title": "回复内容"
+			}
+		]
+	},
+	{
+		"action": "card_chat_customer",
+		"metaData": [
+			{
+				"action": "card_chat_customer",
+				"name": "fromOpenId",
+				"type": "text",
+				"title": "来源openid"
+			},
+			{
+				"action": "card_chat_customer",
+				"name": "fromCustomerId",
+				"type": "text",
+				"title": "来源客户id"
+			},
+			{
+				"action": "card_chat_customer",
+				"name": "toKuickUserId",
+				"type": "text",
+				"title": "接收Kuick用户id"
+			},
+			{
+				"action": "card_chat_customer",
+				"name": "sessionId",
+				"type": "text",
+				"title": "会话id"
+			}
+		]
+	},
+	{
+		"action": "create",
+		"metaData": [
+			{
+				"action": "create",
+				"name": "id",
+				"type": "text",
+				"title": "客户id"
+			},
+			{
+				"action": "create",
+				"name": "appId",
+				"type": "text",
+				"title": "项目id"
+			},
+			{
+				"action": "create",
+				"name": "name",
+				"type": "text",
+				"title": "客户名称"
+			},
+			{
+				"action": "create",
+				"name": "title",
+				"type": "text",
+				"title": "客户职位"
+			},
+			{
+				"action": "create",
+				"name": "email",
+				"type": "text",
+				"title": "客户邮箱"
+			},
+			{
+				"action": "create",
+				"name": "phone",
+				"type": "text",
+				"title": "客户手机号"
+			},
+			{
+				"action": "create",
+				"name": "company",
+				"type": "text",
+				"title": "客户公司"
+			},
+			{
+				"action": "create",
+				"name": "headportrailUrl",
+				"type": "text",
+				"title": "客户头像"
+			},
+			{
+				"action": "create",
+				"name": "status",
+				"type": "number",
+				"title": "客户状态"
+			},
+			{
+				"action": "create",
+				"name": "mergedCustomerId",
+				"type": "text",
+				"title": "合并的客户id"
+			},
+			{
+				"action": "create",
+				"name": "createdAt",
+				"type": "date",
+				"title": "创建时间"
+			},
+			{
+				"action": "create",
+				"name": "updatedAt",
+				"type": "text",
+				"title": "编辑时间"
+			},
+			{
+				"action": "create",
+				"name": "groupId",
+				"type": "text",
+				"title": "客户分组"
+			},
+			{
+				"action": "create",
+				"name": "sex",
+				"type": "number",
+				"title": "客户性别"
+			},
+			{
+				"action": "create",
+				"name": "address",
+				"type": "text",
+				"title": "客户详细地址"
+			},
+			{
+				"action": "create",
+				"name": "ageState",
+				"type": "text",
+				"title": "客户年龄段"
+			},
+			{
+				"action": "create",
+				"name": "fixedPhone",
+				"type": "text",
+				"title": "座机号"
+			},
+			{
+				"action": "create",
+				"name": "province",
+				"type": "text",
+				"title": "客户省份"
+			},
+			{
+				"action": "create",
+				"name": "city",
+				"type": "text",
+				"title": "客户城市"
+			},
+			{
+				"action": "create",
+				"name": "county",
+				"type": "text",
+				"title": "客户区县"
+			},
+			{
+				"action": "create",
+				"name": "leadSource",
+				"type": "text",
+				"title": "线索来源"
+			},
+			{
+				"action": "create",
+				"name": "grade",
+				"type": "text",
+				"title": "客户等级"
+			},
+			{
+				"action": "create",
+				"name": "industry",
+				"type": "text",
+				"title": "客户行业"
+			},
+			{
+				"action": "create",
+				"name": "intentionality",
+				"type": "text",
+				"title": "客户意向度"
+			},
+			{
+				"action": "create",
+				"name": "source",
+				"type": "text",
+				"title": "来源"
+			},
+			{
+				"action": "create",
+				"name": "from",
+				"type": "text",
+				"title": "客户来源"
+			},
+			{
+				"action": "create",
+				"name": "getWay",
+				"type": "text",
+				"title": "客户获取方式"
+			},
+			{
+				"action": "create",
+				"name": "promoterId",
+				"type": "text",
+				"title": "客户推广人id"
+			},
+			{
+				"action": "create",
+				"name": "fromContentTitle",
+				"type": "text",
+				"title": "来源内容标题"
+			},
+			{
+				"action": "create",
+				"name": "fromContentLink",
+				"type": "text",
+				"title": "来源内容链接"
+			},
+			{
+				"action": "create",
+				"name": "searchKeyword",
+				"type": "text",
+				"title": "搜索关键词"
+			},
+			{
+				"action": "create",
+				"name": "buyedKeyword",
+				"type": "text",
+				"title": "购买关键词"
+			},
+			{
+				"action": "create",
+				"name": "platform",
+				"type": "text",
+				"title": "平台"
+			},
+			{
+				"action": "create",
+				"name": "fromProvince",
+				"type": "text",
+				"title": "来源省份"
+			},
+			{
+				"action": "create",
+				"name": "fromCity",
+				"type": "text",
+				"title": "来源城市"
+			},
+			{
+				"action": "create",
+				"name": "utmMedium",
+				"type": "text",
+				"title": "utm媒介"
+			},
+			{
+				"action": "create",
+				"name": "utmCampaign",
+				"type": "text",
+				"title": "utm活动"
+			},
+			{
+				"action": "create",
+				"name": "utmContent",
+				"type": "text",
+				"title": "utm内容"
+			},
+			{
+				"action": "create",
+				"name": "isOfficialAccountFans",
+				"type": "number",
+				"title": "是否为公众号粉丝"
+			},
+			{
+				"action": "create",
+				"name": "phoneProvince",
+				"type": "text",
+				"title": "手机号所在省份"
+			},
+			{
+				"action": "create",
+				"name": "phoneCity",
+				"type": "text",
+				"title": "手机号所在城市"
+			},
+			{
+				"action": "create",
+				"name": "phoneISP",
+				"type": "text",
+				"title": "手机运营商"
+			},
+			{
+				"action": "create",
+				"name": "extensions",
+				"type": "text",
+				"title": "扩展字段"
+			}
+		]
+	},
+	{
+		"action": "customer_merged",
+		"metaData": [
+			{
+				"action": "customer_merged",
+				"name": "id",
+				"type": "text",
+				"title": "客户id"
+			},
+			{
+				"action": "customer_merged",
+				"name": "appId",
+				"type": "text",
+				"title": "项目id"
+			},
+			{
+				"action": "customer_merged",
+				"name": "name",
+				"type": "text",
+				"title": "客户名称"
+			},
+			{
+				"action": "customer_merged",
+				"name": "title",
+				"type": "text",
+				"title": "客户职位"
+			},
+			{
+				"action": "customer_merged",
+				"name": "email",
+				"type": "text",
+				"title": "客户邮箱"
+			},
+			{
+				"action": "customer_merged",
+				"name": "phone",
+				"type": "text",
+				"title": "客户手机号"
+			},
+			{
+				"action": "customer_merged",
+				"name": "company",
+				"type": "text",
+				"title": "客户公司"
+			},
+			{
+				"action": "customer_merged",
+				"name": "headportrailUrl",
+				"type": "text",
+				"title": "客户头像"
+			},
+			{
+				"action": "customer_merged",
+				"name": "status",
+				"type": "number",
+				"title": "客户状态"
+			},
+			{
+				"action": "customer_merged",
+				"name": "mergedCustomerId",
+				"type": "text",
+				"title": "合并的客户id"
+			},
+			{
+				"action": "customer_merged",
+				"name": "createdAt",
+				"type": "date",
+				"title": "创建时间"
+			},
+			{
+				"action": "customer_merged",
+				"name": "updatedAt",
+				"type": "text",
+				"title": "编辑时间"
+			},
+			{
+				"action": "customer_merged",
+				"name": "groupId",
+				"type": "text",
+				"title": "客户分组"
+			},
+			{
+				"action": "customer_merged",
+				"name": "sex",
+				"type": "number",
+				"title": "客户性别"
+			},
+			{
+				"action": "customer_merged",
+				"name": "address",
+				"type": "text",
+				"title": "客户详细地址"
+			},
+			{
+				"action": "customer_merged",
+				"name": "ageState",
+				"type": "text",
+				"title": "客户年龄段"
+			},
+			{
+				"action": "customer_merged",
+				"name": "fixedPhone",
+				"type": "text",
+				"title": "座机号"
+			},
+			{
+				"action": "customer_merged",
+				"name": "province",
+				"type": "text",
+				"title": "客户省份"
+			},
+			{
+				"action": "customer_merged",
+				"name": "city",
+				"type": "text",
+				"title": "客户城市"
+			},
+			{
+				"action": "customer_merged",
+				"name": "county",
+				"type": "text",
+				"title": "客户区县"
+			},
+			{
+				"action": "customer_merged",
+				"name": "leadSource",
+				"type": "text",
+				"title": "线索来源"
+			},
+			{
+				"action": "customer_merged",
+				"name": "grade",
+				"type": "text",
+				"title": "客户等级"
+			},
+			{
+				"action": "customer_merged",
+				"name": "industry",
+				"type": "text",
+				"title": "客户行业"
+			},
+			{
+				"action": "customer_merged",
+				"name": "intentionality",
+				"type": "text",
+				"title": "客户意向度"
+			},
+			{
+				"action": "customer_merged",
+				"name": "source",
+				"type": "text",
+				"title": "来源"
+			},
+			{
+				"action": "customer_merged",
+				"name": "from",
+				"type": "text",
+				"title": "客户来源"
+			},
+			{
+				"action": "customer_merged",
+				"name": "getWay",
+				"type": "text",
+				"title": "客户获取方式"
+			},
+			{
+				"action": "customer_merged",
+				"name": "promoterId",
+				"type": "text",
+				"title": "客户推广人id"
+			},
+			{
+				"action": "customer_merged",
+				"name": "fromContentTitle",
+				"type": "text",
+				"title": "来源内容标题"
+			},
+			{
+				"action": "customer_merged",
+				"name": "fromContentLink",
+				"type": "text",
+				"title": "来源内容链接"
+			},
+			{
+				"action": "customer_merged",
+				"name": "searchKeyword",
+				"type": "text",
+				"title": "搜索关键词"
+			},
+			{
+				"action": "customer_merged",
+				"name": "buyedKeyword",
+				"type": "text",
+				"title": "购买关键词"
+			},
+			{
+				"action": "customer_merged",
+				"name": "platform",
+				"type": "text",
+				"title": "平台"
+			},
+			{
+				"action": "customer_merged",
+				"name": "fromProvince",
+				"type": "text",
+				"title": "来源省份"
+			},
+			{
+				"action": "customer_merged",
+				"name": "fromCity",
+				"type": "text",
+				"title": "来源城市"
+			},
+			{
+				"action": "customer_merged",
+				"name": "utmMedium",
+				"type": "text",
+				"title": "utm媒介"
+			},
+			{
+				"action": "customer_merged",
+				"name": "utmCampaign",
+				"type": "text",
+				"title": "utm活动"
+			},
+			{
+				"action": "customer_merged",
+				"name": "utmContent",
+				"type": "text",
+				"title": "utm内容"
+			},
+			{
+				"action": "customer_merged",
+				"name": "isOfficialAccountFans",
+				"type": "number",
+				"title": "是否为公众号粉丝"
+			},
+			{
+				"action": "customer_merged",
+				"name": "phoneProvince",
+				"type": "text",
+				"title": "手机号所在省份"
+			},
+			{
+				"action": "customer_merged",
+				"name": "phoneCity",
+				"type": "text",
+				"title": "手机号所在城市"
+			},
+			{
+				"action": "customer_merged",
+				"name": "phoneISP",
+				"type": "text",
+				"title": "手机运营商"
+			},
+			{
+				"action": "customer_merged",
+				"name": "extensions",
+				"type": "text",
+				"title": "扩展字段"
+			},
+			{
+				"action": "customer_merged",
+				"name": "kuickUserId",
+				"type": "text",
+				"title": "kuick用户id"
+			}
+		]
+	},
+	{
+		"action": "pull_fans_reward",
+		"metaData": [
+			{
+				"action": "pull_fans_reward",
+				"name": "openid",
+				"type": "text",
+				"title": "粉丝openid"
+			},
+			{
+				"action": "pull_fans_reward",
+				"name": "promotionPlanId",
+				"type": "text",
+				"title": "推广计划记录id"
+			},
+			{
+				"action": "pull_fans_reward",
+				"name": "promotionPlanName",
+				"type": "text",
+				"title": "推广计划名称"
+			},
+			{
+				"action": "pull_fans_reward",
+				"name": "pullFansCount",
+				"type": "number",
+				"title": "拉粉数量"
+			},
+			{
+				"action": "pull_fans_reward",
+				"name": "officialAccountId",
+				"type": "text",
+				"title": "公众号id"
+			},
+			{
+				"action": "pull_fans_reward",
+				"name": "officialAccountName",
+				"type": "text",
+				"title": "公众号名称"
+			}
+		]
+	}
+]

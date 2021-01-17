@@ -1,0 +1,67 @@
+{
+    "id": "cn.kuick.deal.business:license",
+    "type": "Module",
+    "name": "许可管理",
+    "description": "许可管理，ID范围：118000-118900",
+    "menus": [
+        {
+            "id": "30000",
+            "type": "Menu",
+            "name": "企业管理",
+            "description": "企业管理主菜单",
+            "children": [
+                {
+                    "id": "30300",
+                    "type": "MenuItem",
+                    "name": "许可管理",
+                    "description": "许可管理",
+                    "children": []
+                }
+            ]
+        }
+    ],
+    "children":[
+        {
+            "id": "118100",
+            "type": "Button",
+            "name": "成员管理",
+            "description": "成员管理",
+            "children": []
+        },
+        {
+            "id": "118200",
+            "type": "Button",
+            "name": "公众号",
+            "description": "公众号",
+            "children": []
+        },
+        {
+            "id": "118300",
+            "type": "Button",
+            "name": "网站",
+            "description": "网站",
+            "children": []
+        },
+        {
+            "id": "118400",
+            "type": "Button",
+            "name": "App",
+            "description": "App",
+            "children": []
+        },
+        {
+            "id": "118500",
+            "type": "Button",
+            "name": "小程序",
+            "description": "小程序",
+            "children": []
+        },
+        {
+            "id": "118600",
+            "type": "Button",
+            "name": "有赞店铺许可",
+            "description": "有赞店铺许可",
+            "children": []
+        }
+    ]
+}

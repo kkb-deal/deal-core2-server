@@ -1,0 +1,81 @@
+{
+    "id": "cn.kuick.deal.customer:swarm",
+    "type": "Module",
+    "name": "客户分群",
+    "description": "客户分群，ID范围：114000-114900",
+    "menus": [
+        {
+            "id": "116005",
+            "type": "Menu",
+            "name": "客户管理",
+            "description": "客户管理",
+            "children": [
+                {
+                    "id": "116007",
+                    "type": "MenuItem",
+                    "name": "客户分群",
+                    "description": "客户分群",
+                    "children": []
+                }
+            ]
+        }
+    ],
+    "children":[
+        {
+            "id": "114100",
+            "type": "Button",
+            "name": "创建新分群",
+            "description": "创建新分群",
+            "children": []
+        },
+        {
+            "id": "114200",
+            "type": "Button",
+            "name": "复制分群ID",
+            "description": "复制分群ID",
+            "children": []
+        },
+        {
+            "id": "114300",
+            "type": "Button",
+            "name": "搜索",
+            "description": "搜索",
+            "children": []
+        },
+        {
+            "id": "114400",
+            "type": "Button",
+            "name": "分享",
+            "description": "分享",
+            "children": []
+        },
+        {
+            "id": "114500",
+            "type": "Button",
+            "name": "编辑",
+            "description": "编辑",
+            "children": []
+        },
+        {
+            "id": "114600",
+            "type": "Button",
+            "name": "删除",
+            "description": "删除",
+            "children": []
+        },
+        {
+            "id": "114700",
+            "type": "Button",
+            "name": "分群客户查看",
+            "description": "分群客户查看",
+            "children": []
+        },
+        {
+            "id": "114800",
+            "type": "Button",
+            "name": "返回",
+            "description": "返回",
+            "children": []
+        }
+    ]
+}

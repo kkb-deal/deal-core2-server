@@ -1,0 +1,9 @@
+{
+    "id": "cn.kuick.deal:sales:c1",
+    "type": "Package",
+    "name": "销售仪表盘",
+    "description": "销售仪表盘，ID范围：21110-21119",
+    "includes": [
+        "/modules/cn/kuick/deal/sales/dashboard/index.cfg.json"
+    ]
+}

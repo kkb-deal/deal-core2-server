@@ -1,0 +1,126 @@
+{
+    "id": "cn.kuick:deal:youzan-baishi",
+    "type": "Product",
+    "name": "有赞白石版",
+    "description": "大客户版本删减-有赞白石版本",
+    "includes": [
+        "/modules/cn/kuick/deal/marketing/index.c2.cfg.json",
+        "/modules/cn/kuick/deal/customer/index.c3.cfg.json",
+        "/modules/cn/kuick/deal/file/index.c1.cfg.json",
+        "/modules/cn/kuick/deal/business/index.c6.cfg.json"
+    ],
+    "optionals":[
+        {
+            "id": "cn.kuick.deal:business",
+            "type": "Package",
+            "name": "企业管理",
+            "description": "企业管理",
+            "children": [
+                {
+                    "id": "cn.kuick.deal.business:cloudjuke",
+                    "type": "ModuleRef",
+                    "name": "云聚客配置",
+                    "description": "云聚客配置,ID范围：30700-30740",
+                    "versions": [
+                        {
+                            "id": "latest",
+                            "type": "Version",
+                            "name": "客服版",
+                            "description": "一个员工可绑定多个微信号"
+                        },
+                        {
+                            "id": "c1",
+                            "type": "Version",
+                            "name": "分身版",
+                            "description": "一个员工只能绑定一个微信号"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "cn.kuick.deal:customer",
+            "type": "Package",
+            "name": "客户管理",
+            "description": "客户管理，ID范围：115000-116001",
+            "children": [
+                {
+                    "id": "cn.kuick.deal.customer:graph",
+                    "type": "ModuleRef",
+                    "name": "客户关系链",
+                    "description": "客户关系链"
+                }
+            ]
+        },
+        {
+            "id": "cn.kuick.deal.marketing:interactive",
+            "type": "Package",
+            "name": "交互管理",
+            "description": "交互管理，ID范围：110100-111900",
+            "children":[
+                {
+                    "id": "cn.kuick.deal.marketing.publicnum:mailgroupsending",
+                    "type": "ModuleRef",
+                    "name": "公众号群发",
+                    "description": "公众号群发"
+                },
+                {
+                    "id": " cn.kuick.deal.marketing.publicnum:newfans-push",
+                    "type": "ModuleRef",
+                    "name": "新粉丝触发推送",
+                    "description": "新粉丝触发推送"
+                },
+                {
+                    "id": "cn.kuick.deal.marketing.publicnum:keyword-push",
+                    "type": "ModuleRef",
+                    "name": "关键词触发推送",
+                    "description": "关键词触发推送"
+                },
+                {
+                    "id": "cn.kuick.deal.marketing.publicnum:activity",
+                    "type": "ModuleRef",
+                    "name": "活动二维码",
+                    "description": "活动二维码"
+                },
+                {
+                    "id": "cn.kuick.deal.marketing.publicnum:timing-plan",
+                    "type": "ModuleRef",
+                    "name": "定时计划",
+                    "description": "定时计划"
+                },
+                {
+                    "id": "cn.kuick.deal.marketing.publicnum:promotion-plan",
+                    "type": "ModuleRef",
+                    "name": "推广计划",
+                    "description": "推广计划",
+                    "versions": [
+                        {
+                            "id": "latest",
+                            "type": "Version",
+                            "name": "最新版",
+                            "description": "最新版本"
+                        },
+                        {
+                            "id": "c1",
+                            "type": "Version",
+                            "name": "无推广图版本",
+                            "description": "无推广图"
+                        }
+                    ]
+                },
+                {
+                    "id": "cn.kuick.deal.marketing.publicnum:photograph",
+                    "type": "ModuleRef",
+                    "name": "拍照小程序",
+                    "description": "拍照小程序"
+                },
+                {
+                    "id": "cn.kuick.deal.marketing.publicnum:behaviour-push",
+                    "type": "ModuleRef",
+                    "name": "行为推送",
+                    "description": "行为触发推送配置模块"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,116 @@
+{
+    "id": "cn.kuick.deal.marketing.publicnum:interactiverule:c2",
+    "type": "Module",
+    "name": "公众号交互规则",
+    "description": "资料库，ID范围：119100-119900",
+    "menus": [
+        {
+            "id": "10000",
+            "type": "Menu",
+            "name": "运营管理",
+            "description": "运营管理",
+            "children": [
+                {
+                    "id": "10200",
+                    "type": "MenuItem",
+                    "name": "公众号交互规则",
+                    "description": "公众号交互规则",
+                    "children": []
+                }
+            ]
+        }
+    ],
+    "children":[
+        {
+            "id": "119100",
+            "type": "Button",
+            "name": "绑定公众号",
+            "description": "绑定公众号",
+            "children": []
+        },
+        {
+            "id": "119200",
+            "type": "Button",
+            "name": "自动回复",
+            "description": "自动回复",
+            "children": []
+        },
+        {
+            "id": "119210",
+            "type": "Button",
+            "name": "绑定有赞店铺",
+            "description": "绑定有赞店铺",
+            "children": []
+        },
+        {
+            "id": "119300",
+            "type": "Button",
+            "name": "配置",
+            "description": "配置",
+            "children": []
+        },
+        {
+            "id": "119400",
+            "type": "Button",
+            "name": "解绑",
+            "description": "解绑",
+            "children": []
+        },
+        {
+            "id": "119500",
+            "type": "TabItem",
+            "name": "新粉丝",
+            "description": "新粉丝",
+            "children": []
+        },
+        {
+            "id": "119600",
+            "type": "TabItem",
+            "name": "关键词",
+            "description": "关键词",
+            "children": []
+        },
+        {
+            "id": "119800",
+            "type": "TabItem",
+            "name": "定时计划",
+            "description": "定时计划",
+            "children": []
+        },
+        {
+            "id": "119900",
+            "type": "TabItem",
+            "name": "拍照小程序",
+            "description": "拍照小程序",
+            "children": []
+        },
+        {
+            "id": "210000",
+            "type": "TabItem",
+            "name": "活动二维码",
+            "description": "定时计划",
+            "children": []
+        },
+        {
+            "id": "220000",
+            "type": "TabItem",
+            "name": "推广计划",
+            "description": "推广计划",
+            "children": []
+        },
+        {
+            "id": "230000",
+            "type": "TabItem",
+            "name": "有赞店铺Tab",
+            "description": "有赞店铺Tab",
+            "children": []
+        },
+        {
+            "id": "230100",
+            "type": "Button",
+            "name": "配置有赞积分奖励",
+            "description": "配置有赞积分奖励",
+            "children": []
+        }
+    ]
+}

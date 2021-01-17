@@ -1,0 +1,10 @@
+apiVersion: policy/v1beta1
+kind: PodDisruptionBudget
+metadata:
+  name: {{ .Release.Name }}
+spec:
+  selector:
+    matchLabels:
+      app: {{ .Release.Name }}
+{{/*  maxUnavailable: {{ default "1" .Values.maxUnavailable }}*/}}
+  minAvailable: {{ default "1" .Values.minAvailable }}

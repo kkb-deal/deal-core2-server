@@ -1,0 +1,39 @@
+{
+  "id": "cn.kuick.deal.marketing.publicnum:timing-plan",
+  "type": "Module",
+  "name": "定时计划",
+  "description": "定时计划",
+  "menus": [
+    {
+        "id": "10000",
+        "type": "Menu",
+        "name": "运营管理",
+        "description": "运营管理",
+        "children": [
+          {
+              "id": "10100",
+              "type": "MenuItem",
+              "name": "交互管理",
+              "description": "交互管理",
+              "children": []
+          },
+          {
+              "id": "10200",
+              "type": "MenuItem",
+              "name": "公众号交互规则",
+              "description": "公众号交互规则",
+              "children": []
+          }
+        ]
+    }
+  ],
+  "children": [
+      {
+        "id": "119800",
+        "type": "TabItem",
+        "name": "定时计划",
+        "description": "定时计划",
+        "children": []
+      }
+  ]
+}

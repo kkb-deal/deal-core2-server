@@ -1,0 +1,12 @@
+{
+    "id": "cn.kuick.deal:business:c5",
+    "type": "Package",
+    "name": "企业管理c5",
+    "description": "企业管理",
+    "includes": [
+        "/modules/cn/kuick/deal/business/member/index.c2.cfg.json",
+        "/modules/cn/kuick/deal/business/hypercard/index.cfg.json",
+        "/modules/cn/kuick/deal/business/license/index.c2.cfg.json",
+        "/modules/cn/kuick/deal/business/cloudjuke/index.cfg.json"
+    ]
+}

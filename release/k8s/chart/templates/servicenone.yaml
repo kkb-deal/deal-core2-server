@@ -1,0 +1,29 @@
+{{- if .Values.servicenone }}
+{{- if eq .Values.servicenone.type "ClusterIP"}}
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ .Release.Name }}-hs
+  labels:
+    app: {{ template "template-server.name" . }}
+    chart: {{ template "template-server.chart" . }}
+    release: {{ .Release.Name }}
+    heritage: {{ .Release.Service }}
+spec:
+{{- with .Values.servicenone }}
+{{- $serviceInfo := . }}
+  type: {{ .type | quote }}
+  ports:
+  {{- range $portInfo := .ports }}
+    - name: {{ $portInfo.name }}
+      port: {{ $portInfo.port }}
+      targetPort: {{ $portInfo.targetPort }}
+      protocol: TCP
+  {{- end }}
+{{- end }}
+  clusterIP: None
+  selector:
+    app: {{ template "template-server.name" . }}
+    release: {{ .Release.Name }}
+{{- end }}
+{{- end }}

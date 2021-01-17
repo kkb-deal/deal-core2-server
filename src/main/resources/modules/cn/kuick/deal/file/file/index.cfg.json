@@ -1,0 +1,109 @@
+{
+    "id": "cn.kuick.deal.file:file",
+    "type": "Module",
+    "name": "文件管理",
+    "description": "资料库，ID范围：110000-120000",
+    "menus": [
+        {
+            "id": "61000",
+            "type": "Menu",
+            "name": "文件管理",
+            "description": "文件管理",
+            "children": [
+                {
+                    "id": "62000",
+                    "type": "MenuItem",
+                    "name": "资料库",
+                    "description": "资料库",
+                    "children": []
+                }
+            ]
+        }
+    ],
+    "children":[
+        {
+            "id": "1100100",
+            "type": "Button",
+            "name": "搜索",
+            "description": "搜索",
+            "children": []
+        },
+        {
+            "id": "1100200",
+            "type": "Button",
+            "name": "添加",
+            "description": "添加",
+            "children": []
+        },
+        {
+            "id": "1100300",
+            "type": "Button",
+            "name": "分享",
+            "description": "分享",
+            "children": []
+        },
+        {
+            "id": "1100400",
+            "type": "Button",
+            "name": "发资料",
+            "description": "发资料",
+            "children": []
+        },
+        {
+            "id": "1100500",
+            "type": "Button",
+            "name": "编辑",
+            "description": "编辑",
+            "children": []
+        },
+        {
+            "id": "1100600",
+            "type": "Button",
+            "name": "删除",
+            "description": "删除",
+            "children": []
+        },
+        {
+            "id": "1100700",
+            "type": "Button",
+            "name": "下载",
+            "description": "下载",
+            "children": []
+        },
+        {
+            "id": "1100800",
+            "type": "Button",
+            "name": "文件",
+            "description": "文件",
+            "children": []
+        },
+        {
+            "id": "1100900",
+            "type": "Button",
+            "name": "文章",
+            "description": "文章",
+            "children": []
+        },
+        {
+            "id": "1101000",
+            "type": "Button",
+            "name": "H5",
+            "description": "H5",
+            "children": []
+        },
+        {
+            "id": "1102000",
+            "type": "Button",
+            "name": "表单",
+            "description": "表单",
+            "children": []
+        },
+        {
+            "id": "1103000",
+            "type": "Button",
+            "name": "表单数据",
+            "description": "表单数据",
+            "children": []
+        }
+    ]
+}

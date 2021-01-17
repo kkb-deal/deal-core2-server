@@ -1,0 +1,154 @@
+{
+    "id": "cn.kuick.deal.business:hypercard",
+    "type": "Module",
+    "name": "名片小程序配置",
+    "description": "名片小程序配置，ID范围：117000-117900",
+    "menus": [
+        {
+            "id": "30000",
+            "type": "Menu",
+            "name": "企业管理",
+            "description": "企业管理主菜单",
+            "children": [
+                {
+                    "id": "70000",
+                    "type": "MenuItem",
+                    "name": "名片小程序配置",
+                    "description": "名片小程序配置",
+                    "children": []
+                }
+            ]
+        }
+    ],
+    "children":[
+        {
+            "id": "71000",
+            "type": "TabItem",
+            "name": "个人资料",
+            "description": "个人资料",
+            "children": [
+                {
+                    "id": "117110",
+                    "type": "Button",
+                    "name": "更换头像",
+                    "description": "更换头像",
+                    "children": []
+                },
+                {
+                    "id": "117120",
+                    "type": "Button",
+                    "name": "上传音频",
+                    "description": "上传音频",
+                    "children": []
+                },
+                {
+                    "id": "117130",
+                    "type": "Button",
+                    "name": "图片上传",
+                    "description": "图片上传",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "id": "72000",
+            "type": "TabItem",
+            "name": "促销活动",
+            "description": "促销活动",
+            "children": [
+                {
+                    "id": "117210",
+                    "type": "Button",
+                    "name": "创建活动",
+                    "description": "创建活动",
+                    "children": []
+                },
+                {
+                    "id": "117220",
+                    "type": "Button",
+                    "name": "状态修改",
+                    "description": "状态修改",
+                    "children": []
+                },
+                {
+                    "id": "117230",
+                    "type": "Button",
+                    "name": "管理",
+                    "description": "管理",
+                    "children": []
+                },
+                {
+                    "id": "117240",
+                    "type": "Button",
+                    "name": "编辑",
+                    "description": "编辑",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "id": "73000",
+            "type": "TabItem",
+            "name": "介绍",
+            "description": "介绍",
+            "children": [
+                {
+                "id": "117310",
+                "type": "Button",
+                "name": "修改",
+                "description": "修改",
+                "children": []
+                },{
+                "id": "117320",
+                "type": "Button",
+                "name": "详情",
+                "description": "详情",
+                "children": []
+                },{
+                "id": "117330",
+                "type": "Button",
+                "name": "删除",
+                "description": "删除",
+                "children": []
+                }
+             
+             ]
+        },
+        {
+            "id": "74000",
+            "type": "TabItem",
+            "name": "官网",
+            "description": "官网",
+            "children": [
+                {
+                "id": "117410",
+                "type": "Button",
+                "name": "搜索",
+                "description": "搜索",
+                "children": []
+                },{
+                "id": "117420",
+                "type": "Button",
+                "name": "选择H5官网",
+                "description": "选择H5官网",
+                "children": []
+                }
+            ]
+        },
+        {
+            "id": "75000",
+            "type": "TabItem",
+            "name": "自动回复",
+            "description": "自动回复",
+            "children": []
+        },
+        {
+            "id": "76000",
+            "type": "TabItem",
+            "name": "我的小程序",
+            "description": "我的小程序",
+            "children": []
+        }
+        
+    ]
+}

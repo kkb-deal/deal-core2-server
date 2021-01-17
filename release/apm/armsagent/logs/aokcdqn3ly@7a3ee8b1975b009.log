@@ -1,0 +1,11 @@
+2019-09-06 12:21:32.677|32|warn|com.navercorp.pinpoint.profiler.AgentInfoSenderListener|onComplete|send AgentInfo success.
+2019-09-06 12:21:32.822|56|warn|com.navercorp.pinpoint.profiler.monitor.CollectJob|run|start to get System metrics.
+2019-09-06 12:21:32.822|57|warn|com.navercorp.pinpoint.profiler.monitor.DefaultAgentMetricsSender$ReporterJob|run|send agent metrics. no metrics.
+2019-09-06 12:21:32.822|56|warn|com.navercorp.pinpoint.profiler.monitor.CollectJob|run|start to get JVM metrics.
+2019-09-06 12:21:32.823|56|warn|com.navercorp.pinpoint.profiler.monitor.CollectJob|run|collect end. metrics size:61
+2019-09-06 12:21:32.823|56|warn|com.navercorp.pinpoint.profiler.monitor.CollectJob|run|send ali-metrics success.
+2019-09-06 12:21:47.822|56|warn|com.navercorp.pinpoint.profiler.monitor.CollectJob|run|start to get System metrics.
+2019-09-06 12:21:47.822|57|warn|com.navercorp.pinpoint.profiler.monitor.DefaultAgentMetricsSender$ReporterJob|run|send agent metrics. no metrics.
+2019-09-06 12:21:47.822|56|warn|com.navercorp.pinpoint.profiler.monitor.CollectJob|run|start to get JVM metrics.
+2019-09-06 12:21:47.823|56|warn|com.navercorp.pinpoint.profiler.monitor.CollectJob|run|collect end. metrics size:61
+2019-09-06 12:21:47.823|56|warn|com.navercorp.pinpoint.profiler.monitor.CollectJob|run|send ali-metrics success.

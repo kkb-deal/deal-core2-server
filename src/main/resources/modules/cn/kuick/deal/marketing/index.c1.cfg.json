@@ -1,0 +1,13 @@
+{
+    "id": "cn.kuick.deal:marketing:c1",
+    "type": "Package",
+    "name": "运营管理",
+    "description": "运营管理，ID范围：10000-10000",
+    "includes": [
+        "/modules/cn/kuick/deal/marketing/interactive/index.c1.cfg.json",
+        "/modules/cn/kuick/deal/marketing/publicnum/promotion-plan/index.cfg.json",
+        "/modules/cn/kuick/deal/marketing/publicnum/interactiverule/index.c1.cfg.json",
+        "/modules/cn/kuick/deal/file/link/index.cfg.json",
+        "/modules/cn/kuick/deal/marketing/publicnum/mailgroupsending/index.cfg.json"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "id": "cn.kuick.deal:business:c2",
+    "type": "Package",
+    "name": "企业管理",
+    "description": "许可管理，ID范围：30000-30000",
+    "includes": [
+        "/modules/cn/kuick/deal/business/member/index.c2.cfg.json",
+        "/modules/cn/kuick/deal/business/hypercard/index.cfg.json",
+        "/modules/cn/kuick/deal/business/license/index.c2.cfg.json"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "id": "cn.kuick.deal:business:c3",
+    "type": "Package",
+    "name": "企业管理c3",
+    "description": "企业，ID范围：30700-30740",
+    "includes": [
+        "/modules/cn/kuick/deal/business/member/index.c2.cfg.json",
+        "/modules/cn/kuick/deal/business/cloudjuke/index.cfg.json"   ,
+        "/modules/cn/kuick/deal/business/license/index.c2.cfg.json"
+    ]
+}

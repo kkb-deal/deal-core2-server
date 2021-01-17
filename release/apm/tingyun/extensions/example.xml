@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 自定义检测扩展定义. -->
+<extension xmlns="https://tingyun.com/docs/java/xsd/v2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="" name="customExtensions" version="1.0" enabled="true">
+
+    <!-- 动态嵌入定义, 可以包含多个节点, 但节点内元素不能为空 -->
+    <!-- metricPrefix 指定该部分部分的嵌入指标前缀 -->
+    <instrumentation metricPrefix="Custom">
+
+        <!-- 在com.example.ExampleClass类中监测方法定义 -->
+        <pointcut actionStartPoint="true" excludeFromActionTrace="false" ignoreAction="false" actionType="web">
+            <className includeSubclasses="true">com.example.ExampleClass</className>
+            <!-- 监测add()方法 -->
+            <method>
+                <name>add</name>
+                <parameters/>
+                <!-- 如果add方法没有参数列表，或者你希望监测add(), parameters节点必须指定；如果不指定则所有add命名的方法都将被监测。 -->
+            </method>
+            <!-- 监测get(int index) -->
+            <method>
+                <name>get</name>
+                <parameters>
+                    <!-- 基础数据类型，直接使用他们的名字即可: byte, short, int, long, float, double, boolean, char -->
+                    <type>int</type>
+                </parameters>
+            </method>
+            <!-- 监测addAll(int index, Collection c) -->
+            <method>
+                <name>addAll</name>
+                <parameters>
+                    <!-- 确保你的参数按顺序定义 -->
+                    <type>int</type>
+                    <type>java.util.Collection</type>
+                </parameters>
+            </method>
+        </pointcut>
+
+        <!-- 监测com.example.ExampleClass 所有方法名为add的方法, 忽略参数列表和返回值类型 -->
+        <pointcut actionStartPoint="true" metricNameFormat="">
+            <className>com.example.ExampleClass</className>
+            <method>
+                <name>add</name>
+            </method>
+        </pointcut>
+
+        <!-- 通过配置nameAction，使用该pointcut的class和method命名Web应用过程(WebAction/ExampleClass/add) -->
+        <pointcut actionStartPoint="false">
+            <nameAction/>
+            <className>com.example.ExampleClass</className>
+            <method>
+                <name>add</name>
+                <parameters>
+                    <type>java.lang.String</type>
+                </parameters>
+            </method>
+        </pointcut>
+
+        <!-- 接口方法监控，所有实现com.example.ExampleInterface接口的类的add(String)方法都会被监控 -->
+        <pointcut actionStartPoint="true">
+            <interfaceName>com.example.ExampleInterface</interfaceName>
+            <method>
+                <name>add</name>
+                <parameters>
+                    <type>java.lang.String</type>
+                </parameters>
+            </method>
+        </pointcut>
+
+        <!-- 返回值类型监控，返回值为com.example.ResultSet的com.example.ExampleClass类的方法监控 -->
+        <pointcut actionStartPoint="true">
+            <className>com.example.ExampleClass</className>
+            <method>
+                <returnType>com.example.ResultSet</returnType>
+            </method>
+        </pointcut>
+
+        <!-- 注解监控，所有标注com.example.MyAnnotation的方法都会被监控 -->
+        <pointcut actionStartPoint="true">
+            <methodAnnotation>com.example.MyAnnotation</methodAnnotation>
+        </pointcut>
+
+    </instrumentation>
+
+</extension>

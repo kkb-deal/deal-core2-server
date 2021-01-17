@@ -1,0 +1,21 @@
+{{- if .Values.kind }}
+{{- if eq .Values.kind "Deployment"}}
+{{- if .Values.volumes }}
+apiVersion: v1
+kind: PersistentVolumeClaim
+{{ $Name := .Release.Name }}
+{{- range $volumeMountInfo  := .Values.volumes }}
+metadata:
+  name: deployment-{{ $Name  }}-{{ $volumeMountInfo.name }}-pv-claim
+  annotations:
+    volume.beta.kubernetes.io/storage-class: {{ $volumeMountInfo.persistence.storageClass | quote }}
+spec:
+  storageClassName: {{ $volumeMountInfo.persistence.storageClass | quote }}
+  accessModes:
+    - ReadWriteOnce
+  resources:
+{{ toYaml $volumeMountInfo.persistence.resources | indent 10 }}
+{{- end }}
+{{- end }}
+{{- end }}
+{{- end }}

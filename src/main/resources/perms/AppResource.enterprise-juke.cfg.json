@@ -1,0 +1,13 @@
+{
+    "id": "cn.kuick:deal:enterprise-juke",
+    "type": "Product",
+    "name": "企业留客版",
+    "description": "快推9800元套餐付费留客版本",
+    "includes": [
+        "/modules/cn/kuick/deal/marketing/index.c1.cfg.json",
+        "/modules/cn/kuick/deal/sales/index.c1.cfg.json",
+        "/modules/cn/kuick/deal/customer/index.c1.cfg.json",
+        "/modules/cn/kuick/deal/file/index.c1.cfg.json",
+        "/modules/cn/kuick/deal/business/index.c4.cfg.json"
+    ]
+}

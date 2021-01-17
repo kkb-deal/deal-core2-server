@@ -1,0 +1,10 @@
+{
+    "id": "cn.kuick.deal:marketing:c2",
+    "type": "Package",
+    "name": "市场营销",
+    "description": "市场营销，ID范围：10000-10000",
+    "includes": [
+        "/modules/cn/kuick/deal/marketing/interactive/index.c3.cfg.json",
+        "/modules/cn/kuick/deal/marketing/publicnum/interactiverule/index.c4.cfg.json"
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "id": "cn.kuick.deal:history",
+    "type": "Module",
+    "name": "历史纪录",
+    "description": "历史纪录，ID范围：21400-21430",
+    "menus": [
+        {
+            "id": "20000",
+            "type": "Menu",
+            "name": "销售管理",
+            "description": "销售管理",
+            "children": [
+                {
+                    "id": "21400",
+                    "type": "Menu",
+                    "name": "历史记录",
+                    "description": "历史记录",
+                    "children": [
+                        {
+                            "id": "21410",
+                            "type": "MenuItem",
+                            "name": "通话历史",
+                            "description": "通话历史",
+                            "children": []
+                        },
+                        {
+                            "id": "21420",
+                            "type": "MenuItem",
+                            "name": "发送资料历史",
+                            "description": "发送资料历史",
+                            "children": []
+                        },
+                        {
+                            "id": "21430",
+                            "type": "MenuItem",
+                            "name": "邮件群发历史",
+                            "description": "邮件群发历史",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "children":[
+    ]
+}

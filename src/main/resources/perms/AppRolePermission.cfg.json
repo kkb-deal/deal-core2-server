@@ -1,0 +1,2832 @@
+[
+    {
+        "domainId": "MarketPost",
+        "name":"运营管理",
+        "perms": [
+            {
+                "domainType": "Menu",
+                "domainId": "10000",
+                "domainName": "运营管理",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "10100",
+                "domainType": "MenuItem",
+                "domainName": "交互管理",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "10200",
+                "domainType": "MenuItem",
+                "domainName": "微信公众号交互规则",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "10300",
+                "domainType": "MenuItem",
+                "domainName": "公众号群发历史",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "110100",
+                "domainType": "Button",
+                "domainName": "交互管理创建文章",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "110200",
+                "domainType": "Button",
+                "domainName": "交互管理创建多图文",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "110300",
+                "domainType": "Button",
+                "domainName": "交互管理创建H5",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "110400",
+                "domainType": "Button",
+                "domainName": "交互管理创建社交图片",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "110500",
+                "domainType": "Button",
+                "domainName": "交互管理上传文件",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "110600",
+                "domainType": "Button",
+                "domainName": "交互管理创建链接",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "110700",
+                "domainType": "Button",
+                "domainName": "交互管理公众号群发",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "110800",
+                "domainType": "Button",
+                "domainName": "交互管理公众号自动推送",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "110900",
+                "domainType": "Button",
+                "domainName": "交互管理活动二维码",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "111000",
+                "domainType": "Button",
+                "domainName": "交互管理粉丝推广计划",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "111100",
+                "domainType": "Button",
+                "domainName": "交互管理微信打卡",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "111200",
+                "domainType": "Button",
+                "domainName": "交互管理发起邮件群发",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "111300",
+                "domainType": "Button",
+                "domainName": "交互管理直播间",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "119100",
+                "domainType": "Button",
+                "domainName": "交互规则绑定公众号",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "119200",
+                "domainType": "Button",
+                "domainName": "交互规则自动回复",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "119300",
+                "domainType": "Button",
+                "domainName": "交互规则配置",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "119400",
+                "domainType": "Button",
+                "domainName": "交互规则解绑",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "119500",
+                "domainType": "TabItem",
+                "domainName": "新粉丝",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "119600",
+                "domainType": "TabItem",
+                "domainName": "关键词",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "119700",
+                "domainType": "TabItem",
+                "domainName": "兴趣标签",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "119800",
+                "domainType": "TabItem",
+                "domainName": "交互规则定时计划",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "119900",
+                "domainType": "TabItem",
+                "domainName": "拍照",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "210000",
+                "domainType": "TabItem",
+                "domainName": "活动二维码",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "220000",
+                "domainType": "TabItem",
+                "domainName": "推广计划",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "240000",
+                "domainType": "TabItem",
+                "domainName": "行为推送",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "220100",
+                "domainType": "Button",
+                "domainName": "设置推广图",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "118000",
+                "domainType": "Button",
+                "domainName": "公众号邮件群发详情",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "119000",
+                "domainType": "Button",
+                "domainName": "公众号邮件群发下载",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "21430",
+                "domainType": "MenuItem",
+                "domainName": "邮件群发历史",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "11000",
+                "domainType": "MenuItem",
+                "domainName": "市场仪表盘",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "10600",
+                "domainType": "MenuItem",
+                "domainName": "群发邮件历史",
+                "perm": "VIEW,CLICK"
+            }
+        ]
+    },
+    {
+        "domainId": "SalesPost",
+        "name":"销售管理",
+        "perms": [
+            {
+                "domainType": "Menu",
+                "domainId": "20000",
+                "domainName": "销售管理",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "21100",
+                "domainType": "MenuItem",
+                "domainName": "销售数据概览",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "21130",
+                "domainType": "Button",
+                "domainName": "我的",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "20100",
+                "domainType": "MenuButton",
+                "domainName": "发资料",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "21400",
+                "domainType": "Menu",
+                "domainName": "历史记录",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "21410",
+                "domainType": "MenuItem",
+                "domainName": "通话历史",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "21420",
+                "domainType": "MenuItem",
+                "domainName": "发送资料历史",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "21430",
+                "domainType": "MenuItem",
+                "domainName": "邮件群发历史",
+                "perm": "VIEW,CLICK"
+            }
+        ]
+    },
+
+    {
+        "domainId": "Sales",
+        "name":"普通销售（企业成员，包括市场人员和销售人员，项目成员）",
+        "perms": [
+            {
+
+                "domainType": "Menu",
+                "domainId": "30000",
+                "domainName": "企业管理",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "116005",
+                "domainType": "Menu",
+                "domainName": "客户管理",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "116007",
+                "domainType": "MenuItem",
+                "domainName": "客户分群",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "116006",
+                "domainType": "MenuItem",
+                "domainName": "客户管理",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "30100",
+                "domainType": "MenuItem",
+                "domainName": "企业成员",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "40000",
+                "domainType": "Applet",
+                "domainName": "企业成员管理",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "114100",
+                "domainType": "Button",
+                "domainName": "创建新分群",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "114200",
+                "domainType": "Button",
+                "domainName": "复制分群ID",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "114300",
+                "domainType": "Button",
+                "domainName": "分群搜索",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "114400",
+                "domainType": "Button",
+                "domainName": "分群分享",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "114500",
+                "domainType": "Button",
+                "domainName": "分群编辑",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "114600",
+                "domainType": "Button",
+                "domainName": "分群删除",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "114700",
+                "domainType": "Button",
+                "domainName": "分群客户查看",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "114800",
+                "domainType": "Button",
+                "domainName": "分群返回",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "71000",
+                "domainType": "TabItem",
+                "domainName": "个人资料",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "117110",
+                "domainType": "Button",
+                "domainName": "更换头像",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "117120",
+                "domainType": "Button",
+                "domainName": "上传音频",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "117130",
+                "domainType": "Button",
+                "domainName": "图片上传",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "1100100",
+                "domainType": "Button",
+                "domainName": "资料库搜索",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "1100200",
+                "domainType": "Button",
+                "domainName": "资料库添加",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "1100300",
+                "domainType": "Button",
+                "domainName": "资料库分享",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "1100400",
+                "domainType": "Button",
+                "domainName": "发资料",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "1100500",
+                "domainType": "Button",
+                "domainName": "资料库编辑",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "1100600",
+                "domainType": "Button",
+                "domainName": "资料库删除",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "1100700",
+                "domainType": "Button",
+                "domainName": "资料库下载",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "1100800",
+                "domainType": "Button",
+                "domainName": "文件",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "1100900",
+                "domainType": "Button",
+                "domainName": "文章",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "1101000",
+                "domainType": "Button",
+                "domainName": "H5",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "1102000",
+                "domainType": "Button",
+                "domainName": "表单",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "1103000",
+                "domainType": "Button",
+                "domainName": "查看表单数据",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "61000",
+                "domainType": "MenuItem",
+                "domainName": "文件管理",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "62000",
+                "domainType": "MenuItem",
+                "domainName": "资料库",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "115000",
+                "domainType": "Button",
+                "domainName": "客户管理筛选筛选",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "115100",
+                "domainType": "Button",
+                "domainName": "创建客户",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "115200",
+                "domainType": "Button",
+                "domainName": "批量创建客户",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "115300",
+                "domainType": "Button",
+                "domainName": "客户搜索",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "115400",
+                "domainType": "Button",
+                "domainName": "客户转移分组",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "115500",
+                "domainType": "Button",
+                "domainName": "转让客户",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "115600",
+                "domainType": "Button",
+                "domainName": "客户加入分群",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "115700",
+                "domainType": "Button",
+                "domainName": "客户发资料",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "115800",
+                "domainType": "Button",
+                "domainName": "客户群发邮件",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "115900",
+                "domainType": "Button",
+                "domainName": "客户远程演示",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "116000",
+                "domainType": "Button",
+                "domainName": "客户打电话",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "116001",
+                "domainType": "Button",
+                "domainName": "发送公众号二维码",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "116002",
+                "domainType": "Button",
+                "domainName": "客户概览",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "116003",
+                "domainType": "Button",
+                "domainName": "客户动态",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "116004",
+                "domainType": "Button",
+                "domainName": "客户记录",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "10411",
+                "domainType": "Button",
+                "domainName": "客户数据统计",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "10412",
+                "domainType": "Button",
+                "domainName": "客户数据统计资料发送",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "10413",
+                "domainType": "Button",
+                "domainName": "客户数据统计资料浏览",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "10414",
+                "domainType": "Button",
+                "domainName": "客户数据统计表单填写",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "10415",
+                "domainType": "Button",
+                "domainName": "客户数据统计网站访问",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "10416",
+                "domainType": "Button",
+                "domainName": "客户数据统计App启动",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "10417",
+                "domainType": "Button",
+                "domainName": "客户数据统计通话记录",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "10418",
+                "domainType": "Button",
+                "domainName": "客户数据统计远程演示",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "10419",
+                "domainType": "Button",
+                "domainName": "客户数据统计微信关注",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "10420",
+                "domainType": "Button",
+                "domainName": "关注的微信公众号",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "10421",
+                "domainType": "Button",
+                "domainName": "已标定的平台设备",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "10422",
+                "domainType": "Button",
+                "domainName": "客户管理详细动态",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "20100",
+                "domainType": "MenuButton",
+                "domainName": "发资料",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "20200",
+                "domainType": "MenuButton",
+                "domainName": "邮件发送",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "20300",
+                "domainType": "MenuButton",
+                "domainName": "远程演示",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "20400",
+                "domainType": "MenuButton",
+                "domainName": "打电话",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "10700",
+                "domainType": "MenuItem",
+                "domainName": "链接详情",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "10710",
+                "domainType": "Button",
+                "domainName": "详情",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "10711",
+                "domainType": "Button",
+                "domainName": "复制",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "10712",
+                "domainType": "Button",
+                "domainName": "分享",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "10713",
+                "domainType": "Button",
+                "domainName": "编辑",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "40100",
+                "domainType": "Button",
+                "domainName": "添加成员",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "110080",
+                "domainType": "Button",
+                "domainName": "identity",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "118100",
+                "domainType": "Button",
+                "domainName": "成员管理",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "118200",
+                "domainType": "Button",
+                "domainName": "公众号",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "118300",
+                "domainType": "Button",
+                "domainName": "网站",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "118400",
+                "domainType": "Button",
+                "domainName": "App",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "118500",
+                "domainType": "Button",
+                "domainName": "小程序",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "40000",
+                "domainType": "Applet",
+                "domainName": "企业成员管理",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "40100",
+                "domainType": "Button",
+                "domainName": "添加成员",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "40200",
+                "domainType": "Button",
+                "domainName": "转让项目",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "70000",
+                "domainType": "Applet",
+                "domainName": "名片小程序配置",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "71000",
+                "domainType": "TabItem",
+                "domainName": "个人资料",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "117110",
+                "domainType": "Button",
+                "domainName": "更换头像",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "117120",
+                "domainType": "Button",
+                "domainName": "上传音频",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "117130",
+                "domainType": "Button",
+                "domainName": "图片上传",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "75000",
+                "domainType": "TabItem",
+                "domainName": "自动回复",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "21430",
+                "domainType": "MenuItem",
+                "domainName": "邮件群发历史",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "30700",
+                "domainType": "Menu",
+                "domainName": "云聚客配置",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "30710",
+                "domainType": "TabItem",
+                "domainName": "活动配置",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "30720",
+                "domainType": "TabItem",
+                "domainName": "话术配置",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "30730",
+                "domainType": "TabItem",
+                "domainName": "数据报表",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "118600",
+                "domainType": "Button",
+                "domainName": "有赞店铺许可",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "119210",
+                "domainType": "Button",
+                "domainName": "绑定有赞店铺",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "230000",
+                "domainType": "TabItem",
+                "domainName": "有赞店铺Tab",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "230100",
+                "domainType": "Button",
+                "domainName": "配置有赞积分奖励",
+                "perm": "VIEW,CLICK"
+            }
+        ]
+    },
+
+    {
+        "domainId": "AppMember",
+        "name":"项目成员",
+        "perms": [
+            {
+                "domainType": "Menu",
+                "domainId": "30000",
+                "domainName": "企业管理",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "30100",
+                "domainType": "MenuItem",
+                "domainName": "企业成员",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "40000",
+                "domainType": "MenuItem",
+                "domainName": "企业成员",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "70000",
+                "domainType": "Applet",
+                "domainName": "名片小程序配置",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "71000",
+                "domainType": "TabItem",
+                "domainName": "个人资料",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "75000",
+                "domainType": "TabItem",
+                "domainName": "自动回复",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "30700",
+                "domainType": "Menu",
+                "domainName": "云聚客配置",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "30710",
+                "domainType": "TabItem",
+                "domainName": "活动配置",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "30720",
+                "domainType": "TabItem",
+                "domainName": "话术配置",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "30730",
+                "domainType": "TabItem",
+                "domainName": "数据报表",
+                "perm": "VIEW,CLICK"
+            }
+        ]
+    },
+
+    {
+        "domainId": "Admin",
+        "name":"管理员",
+        "perms": [
+            {
+
+                "domainType": "Menu",
+                "domainId": "30000",
+                "domainName": "企业管理",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "116005",
+                "domainType": "Menu",
+                "domainName": "客户管理",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "116007",
+                "domainType": "MenuItem",
+                "domainName": "客户分群",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "116006",
+                "domainType": "MenuItem",
+                "domainName": "客户管理",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "30100",
+                "domainType": "MenuItem",
+                "domainName": "企业成员",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "40000",
+                "domainType": "Applet",
+                "domainName": "企业成员管理",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "114100",
+                "domainType": "Button",
+                "domainName": "创建新分群",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "114200",
+                "domainType": "Button",
+                "domainName": "复制分群ID",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "114300",
+                "domainType": "Button",
+                "domainName": "分群搜索",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "114400",
+                "domainType": "Button",
+                "domainName": "分群分享",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "114500",
+                "domainType": "Button",
+                "domainName": "分群编辑",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "114600",
+                "domainType": "Button",
+                "domainName": "分群删除",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "114700",
+                "domainType": "Button",
+                "domainName": "分群客户查看",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "114800",
+                "domainType": "Button",
+                "domainName": "分群返回",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "71000",
+                "domainType": "TabItem",
+                "domainName": "个人资料",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "117110",
+                "domainType": "Button",
+                "domainName": "更换头像",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "117120",
+                "domainType": "Button",
+                "domainName": "上传音频",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "117130",
+                "domainType": "Button",
+                "domainName": "图片上传",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "1100100",
+                "domainType": "Button",
+                "domainName": "资料库搜索",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "1100200",
+                "domainType": "Button",
+                "domainName": "资料库添加",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "1100300",
+                "domainType": "Button",
+                "domainName": "资料库分享",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "1100400",
+                "domainType": "Button",
+                "domainName": "发资料",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "1100500",
+                "domainType": "Button",
+                "domainName": "资料库编辑",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "1100600",
+                "domainType": "Button",
+                "domainName": "资料库删除",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "1100700",
+                "domainType": "Button",
+                "domainName": "资料库下载",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "1100800",
+                "domainType": "Button",
+                "domainName": "文件",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "1100900",
+                "domainType": "Button",
+                "domainName": "文章",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "1101000",
+                "domainType": "Button",
+                "domainName": "H5",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "1102000",
+                "domainType": "Button",
+                "domainName": "表单",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "1103000",
+                "domainType": "Button",
+                "domainName": "查看表单数据",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "61000",
+                "domainType": "MenuItem",
+                "domainName": "文件管理",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "62000",
+                "domainType": "MenuItem",
+                "domainName": "资料库",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "115000",
+                "domainType": "Button",
+                "domainName": "客户管理筛选筛选",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "115100",
+                "domainType": "Button",
+                "domainName": "创建客户",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "115200",
+                "domainType": "Button",
+                "domainName": "批量创建客户",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "115300",
+                "domainType": "Button",
+                "domainName": "客户搜索",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "115400",
+                "domainType": "Button",
+                "domainName": "客户转移分组",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "115500",
+                "domainType": "Button",
+                "domainName": "转让客户",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "115600",
+                "domainType": "Button",
+                "domainName": "客户加入分群",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "115700",
+                "domainType": "Button",
+                "domainName": "客户发资料",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "115800",
+                "domainType": "Button",
+                "domainName": "客户群发邮件",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "115900",
+                "domainType": "Button",
+                "domainName": "客户远程演示",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "116000",
+                "domainType": "Button",
+                "domainName": "客户打电话",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "116001",
+                "domainType": "Button",
+                "domainName": "发送公众号二维码",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "116002",
+                "domainType": "Button",
+                "domainName": "客户概览",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "116003",
+                "domainType": "Button",
+                "domainName": "客户动态",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "116004",
+                "domainType": "Button",
+                "domainName": "客户记录",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "10411",
+                "domainType": "Button",
+                "domainName": "客户数据统计",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "10412",
+                "domainType": "Button",
+                "domainName": "客户数据统计资料发送",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "10413",
+                "domainType": "Button",
+                "domainName": "客户数据统计资料浏览",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "10414",
+                "domainType": "Button",
+                "domainName": "客户数据统计表单填写",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "10415",
+                "domainType": "Button",
+                "domainName": "客户数据统计网站访问",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "10416",
+                "domainType": "Button",
+                "domainName": "客户数据统计App启动",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "10417",
+                "domainType": "Button",
+                "domainName": "客户数据统计通话记录",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "10418",
+                "domainType": "Button",
+                "domainName": "客户数据统计远程演示",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "10419",
+                "domainType": "Button",
+                "domainName": "客户数据统计微信关注",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "10420",
+                "domainType": "Button",
+                "domainName": "关注的微信公众号",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "10421",
+                "domainType": "Button",
+                "domainName": "已标定的平台设备",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "10422",
+                "domainType": "Button",
+                "domainName": "客户管理详细动态",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "20100",
+                "domainType": "MenuButton",
+                "domainName": "发资料",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "20200",
+                "domainType": "MenuButton",
+                "domainName": "邮件发送",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "20300",
+                "domainType": "MenuButton",
+                "domainName": "远程演示",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "20400",
+                "domainType": "MenuButton",
+                "domainName": "打电话",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "10700",
+                "domainType": "MenuItem",
+                "domainName": "链接详情",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "10710",
+                "domainType": "Button",
+                "domainName": "详情",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "10711",
+                "domainType": "Button",
+                "domainName": "复制",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "10712",
+                "domainType": "Button",
+                "domainName": "分享",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "10713",
+                "domainType": "Button",
+                "domainName": "编辑",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "40100",
+                "domainType": "Button",
+                "domainName": "添加成员",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "110080",
+                "domainType": "Button",
+                "domainName": "identity",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "118100",
+                "domainType": "Button",
+                "domainName": "成员管理",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "118200",
+                "domainType": "Button",
+                "domainName": "公众号",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "118300",
+                "domainType": "Button",
+                "domainName": "网站",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "118400",
+                "domainType": "Button",
+                "domainName": "App",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "118500",
+                "domainType": "Button",
+                "domainName": "小程序",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "40000",
+                "domainType": "Applet",
+                "domainName": "企业成员管理",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "40100",
+                "domainType": "Button",
+                "domainName": "添加成员",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "40200",
+                "domainType": "Button",
+                "domainName": "转让项目",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "70000",
+                "domainType": "Applet",
+                "domainName": "名片小程序配置",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "71000",
+                "domainType": "TabItem",
+                "domainName": "个人资料",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "75000",
+                "domainType": "TabItem",
+                "domainName": "自动回复",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "117110",
+                "domainType": "Button",
+                "domainName": "更换头像",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "117120",
+                "domainType": "Button",
+                "domainName": "上传音频",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "117130",
+                "domainType": "Button",
+                "domainName": "图片上传",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "21430",
+                "domainType": "MenuItem",
+                "domainName": "邮件群发历史",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "30700",
+                "domainType": "Menu",
+                "domainName": "云聚客配置",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "30710",
+                "domainType": "TabItem",
+                "domainName": "活动配置",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "30720",
+                "domainType": "TabItem",
+                "domainName": "话术配置",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "30730",
+                "domainType": "TabItem",
+                "domainName": "数据报表",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "118600",
+                "domainType": "Button",
+                "domainName": "有赞店铺许可",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "119210",
+                "domainType": "Button",
+                "domainName": "绑定有赞店铺",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "230000",
+                "domainType": "TabItem",
+                "domainName": "有赞店铺Tab",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "230100",
+                "domainType": "Button",
+                "domainName": "配置有赞积分奖励",
+                "perm": "VIEW,CLICK"
+            }
+        ]
+    },
+    {
+        "domainId": "Master",
+        "name":"超级管理员",
+        "perms": [
+            {
+
+                "domainType": "Menu",
+                "domainId": "30000",
+                "domainName": "企业管理",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "116005",
+                "domainType": "Menu",
+                "domainName": "客户管理",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "116007",
+                "domainType": "MenuItem",
+                "domainName": "客户分群",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "116006",
+                "domainType": "MenuItem",
+                "domainName": "客户管理",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "30100",
+                "domainType": "MenuItem",
+                "domainName": "企业成员",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "40000",
+                "domainType": "Applet",
+                "domainName": "企业成员管理",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "114100",
+                "domainType": "Button",
+                "domainName": "创建新分群",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "114200",
+                "domainType": "Button",
+                "domainName": "复制分群ID",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "114300",
+                "domainType": "Button",
+                "domainName": "分群搜索",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "114400",
+                "domainType": "Button",
+                "domainName": "分群分享",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "114500",
+                "domainType": "Button",
+                "domainName": "分群编辑",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "114600",
+                "domainType": "Button",
+                "domainName": "分群删除",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "114700",
+                "domainType": "Button",
+                "domainName": "分群客户查看",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "114800",
+                "domainType": "Button",
+                "domainName": "分群返回",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "71000",
+                "domainType": "TabItem",
+                "domainName": "个人资料",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "117110",
+                "domainType": "Button",
+                "domainName": "更换头像",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "117120",
+                "domainType": "Button",
+                "domainName": "上传音频",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "117130",
+                "domainType": "Button",
+                "domainName": "图片上传",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "1100100",
+                "domainType": "Button",
+                "domainName": "资料库搜索",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "1100200",
+                "domainType": "Button",
+                "domainName": "资料库添加",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "1100300",
+                "domainType": "Button",
+                "domainName": "资料库分享",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "1100400",
+                "domainType": "Button",
+                "domainName": "发资料",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "1100500",
+                "domainType": "Button",
+                "domainName": "资料库编辑",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "1100600",
+                "domainType": "Button",
+                "domainName": "资料库删除",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "1100700",
+                "domainType": "Button",
+                "domainName": "资料库下载",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "1100800",
+                "domainType": "Button",
+                "domainName": "文件",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "1100900",
+                "domainType": "Button",
+                "domainName": "文章",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "1101000",
+                "domainType": "Button",
+                "domainName": "H5",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "1102000",
+                "domainType": "Button",
+                "domainName": "表单",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "1103000",
+                "domainType": "Button",
+                "domainName": "查看表单数据",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "61000",
+                "domainType": "MenuItem",
+                "domainName": "文件管理",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "62000",
+                "domainType": "MenuItem",
+                "domainName": "资料库",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "115000",
+                "domainType": "Button",
+                "domainName": "客户管理筛选筛选",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "115100",
+                "domainType": "Button",
+                "domainName": "创建客户",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "115200",
+                "domainType": "Button",
+                "domainName": "批量创建客户",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "115300",
+                "domainType": "Button",
+                "domainName": "客户搜索",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "115400",
+                "domainType": "Button",
+                "domainName": "客户转移分组",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "115500",
+                "domainType": "Button",
+                "domainName": "转让客户",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "115600",
+                "domainType": "Button",
+                "domainName": "客户加入分群",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "115700",
+                "domainType": "Button",
+                "domainName": "客户发资料",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "115800",
+                "domainType": "Button",
+                "domainName": "客户群发邮件",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "115900",
+                "domainType": "Button",
+                "domainName": "客户远程演示",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "116000",
+                "domainType": "Button",
+                "domainName": "客户打电话",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "116001",
+                "domainType": "Button",
+                "domainName": "发送公众号二维码",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "116002",
+                "domainType": "Button",
+                "domainName": "客户概览",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "116003",
+                "domainType": "Button",
+                "domainName": "客户动态",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "116004",
+                "domainType": "Button",
+                "domainName": "客户记录",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "10411",
+                "domainType": "Button",
+                "domainName": "客户数据统计",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "10412",
+                "domainType": "Button",
+                "domainName": "客户数据统计资料发送",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "10413",
+                "domainType": "Button",
+                "domainName": "客户数据统计资料浏览",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "10414",
+                "domainType": "Button",
+                "domainName": "客户数据统计表单填写",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "10415",
+                "domainType": "Button",
+                "domainName": "客户数据统计网站访问",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "10416",
+                "domainType": "Button",
+                "domainName": "客户数据统计App启动",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "10417",
+                "domainType": "Button",
+                "domainName": "客户数据统计通话记录",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "10418",
+                "domainType": "Button",
+                "domainName": "客户数据统计远程演示",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "10419",
+                "domainType": "Button",
+                "domainName": "客户数据统计微信关注",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "10420",
+                "domainType": "Button",
+                "domainName": "关注的微信公众号",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "10421",
+                "domainType": "Button",
+                "domainName": "已标定的平台设备",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "10422",
+                "domainType": "Button",
+                "domainName": "客户管理详细动态",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "20100",
+                "domainType": "MenuButton",
+                "domainName": "发资料",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "20200",
+                "domainType": "MenuButton",
+                "domainName": "邮件发送",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "20300",
+                "domainType": "MenuButton",
+                "domainName": "远程演示",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "20400",
+                "domainType": "MenuButton",
+                "domainName": "打电话",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "10700",
+                "domainType": "MenuItem",
+                "domainName": "链接详情",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "10710",
+                "domainType": "Button",
+                "domainName": "详情",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "10711",
+                "domainType": "Button",
+                "domainName": "复制",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "10712",
+                "domainType": "Button",
+                "domainName": "分享",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "10713",
+                "domainType": "Button",
+                "domainName": "编辑",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "40100",
+                "domainType": "Button",
+                "domainName": "添加成员",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "110080",
+                "domainType": "Button",
+                "domainName": "identity",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "118100",
+                "domainType": "Button",
+                "domainName": "成员管理",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "118200",
+                "domainType": "Button",
+                "domainName": "公众号",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "118300",
+                "domainType": "Button",
+                "domainName": "网站",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "118400",
+                "domainType": "Button",
+                "domainName": "App",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "118500",
+                "domainType": "Button",
+                "domainName": "小程序",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "40000",
+                "domainType": "Applet",
+                "domainName": "企业成员管理",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "40100",
+                "domainType": "Button",
+                "domainName": "添加成员",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "40200",
+                "domainType": "Button",
+                "domainName": "转让项目",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "70000",
+                "domainType": "Applet",
+                "domainName": "名片小程序配置",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "71000",
+                "domainType": "TabItem",
+                "domainName": "个人资料",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "117110",
+                "domainType": "Button",
+                "domainName": "更换头像",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "117120",
+                "domainType": "Button",
+                "domainName": "上传音频",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "117130",
+                "domainType": "Button",
+                "domainName": "图片上传",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "21430",
+                "domainType": "MenuItem",
+                "domainName": "邮件群发历史",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "75000",
+                "domainType": "TabItem",
+                "domainName": "自动回复",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "30700",
+                "domainType": "Menu",
+                "domainName": "云聚客配置",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "30710",
+                "domainType": "TabItem",
+                "domainName": "活动配置",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "30720",
+                "domainType": "TabItem",
+                "domainName": "话术配置",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "30730",
+                "domainType": "TabItem",
+                "domainName": "数据报表",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "118600",
+                "domainType": "Button",
+                "domainName": "有赞店铺许可",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "119210",
+                "domainType": "Button",
+                "domainName": "绑定有赞店铺",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "230000",
+                "domainType": "TabItem",
+                "domainName": "有赞店铺Tab",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "230100",
+                "domainType": "Button",
+                "domainName": "配置有赞积分奖励",
+                "perm": "VIEW,CLICK"
+            }
+        ]
+    },
+    {
+        "domainId": "Owner",
+        "name":"项目创建人",
+        "perms": [
+            {
+                "domainId": "870000",
+                "domainType": "Menu",
+                "domainName": "新留客管理",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "871000",
+                "domainType": "MenuItem",
+                "domainName": "营销号管理",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "872000",
+                "domainType": "MenuItem",
+                "domainName": "营销群管理",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "873000",
+                "domainType": "MenuItem",
+                "domainName": "质检规则管理",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "116005",
+                "domainType": "Menu",
+                "domainName": "客户管理",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "116007",
+                "domainType": "MenuItem",
+                "domainName": "客户分群",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "116006",
+                "domainType": "MenuItem",
+                "domainName": "客户管理",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "114100",
+                "domainType": "Button",
+                "domainName": "创建新分群",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "114200",
+                "domainType": "Button",
+                "domainName": "复制分群ID",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "114300",
+                "domainType": "Button",
+                "domainName": "分群搜索",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "114400",
+                "domainType": "Button",
+                "domainName": "分群分享",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "114500",
+                "domainType": "Button",
+                "domainName": "分群编辑",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "114600",
+                "domainType": "Button",
+                "domainName": "分群删除",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "114700",
+                "domainType": "Button",
+                "domainName": "分群客户查看",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "114800",
+                "domainType": "Button",
+                "domainName": "分群返回",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainType": "Menu",
+                "domainId": "30000",
+                "domainName": "企业管理",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "30100",
+                "domainType": "MenuItem",
+                "domainName": "企业成员",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "30200",
+                "domainType": "MenuItem",
+                "domainName": "组织架构管理",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "40100",
+                "domainType": "Button",
+                "domainName": "添加成员",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "110080",
+                "domainType": "Button",
+                "domainName": "identity",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "112100",
+                "domainType": "Button",
+                "domainName": "组织添加",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "112200",
+                "domainType": "Button",
+                "domainName": "组织详情",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "112300",
+                "domainType": "Button",
+                "domainName": "部门管理员",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "112400",
+                "domainType": "Button",
+                "domainName": "超级管理员",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "30300",
+                "domainType": "MenuItem",
+                "domainName": "许可管理",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "30400",
+                "domainType": "MenuItem",
+                "domainName": "标签管理",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "30500",
+                "domainType": "MenuItem",
+                "domainName": "名片小程序产品设置",
+                "perm": "VIEW,CLICK"
+            },{
+                "domainId": "30600",
+                "domainType": "Applet",
+                "domainName": "配置打卡小程序",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "40000",
+                "domainType": "Applet",
+                "domainName": "企业成员管理",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "40200",
+                "domainType": "Button",
+                "domainName": "转让项目",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "40300",
+                "domainType": "Button",
+                "domainName": "设置成员角色",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "40400",
+                "domainType": "Button",
+                "domainName": "移除企业成员",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "50000",
+                "domainType": "Applet",
+                "domainName": "配置组织架构",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "60000",
+                "domainType": "Applet",
+                "domainName": "许可管理",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "70000",
+                "domainType": "Applet",
+                "domainName": "名片小程序配置",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "71000",
+                "domainType": "TabItem",
+                "domainName": "个人资料",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "72000",
+                "domainType": "TabItem",
+                "domainName": "促销活动",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "73000",
+                "domainType": "TabItem",
+                "domainName": "介绍",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "74000",
+                "domainType": "TabItem",
+                "domainName": "官网",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "75000",
+                "domainType": "TabItem",
+                "domainName": "自动回复",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "76000",
+                "domainType": "TabItem",
+                "domainName": "我的小程序",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "117110",
+                "domainType": "Button",
+                "domainName": "更换头像",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "117120",
+                "domainType": "Button",
+                "domainName": "上传音频",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "117130",
+                "domainType": "Button",
+                "domainName": "图片上传",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "117210",
+                "domainType": "Button",
+                "domainName": "创建活动",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "117220",
+                "domainType": "Button",
+                "domainName": "状态修改",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "117230",
+                "domainType": "Button",
+                "domainName": "管理",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "117240",
+                "domainType": "Button",
+                "domainName": "编辑",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "117310",
+                "domainType": "Button",
+                "domainName": "修改",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "117320",
+                "domainType": "Button",
+                "domainName": "详情",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "117330",
+                "domainType": "Button",
+                "domainName": "删除",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "117410",
+                "domainType": "Button",
+                "domainName": "搜索",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "117420",
+                "domainType": "Button",
+                "domainName": "选择H5官网",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "118100",
+                "domainType": "Button",
+                "domainName": "成员管理",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "118200",
+                "domainType": "Button",
+                "domainName": "公众号",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "118300",
+                "domainType": "Button",
+                "domainName": "网站",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "118400",
+                "domainType": "Button",
+                "domainName": "App",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "118500",
+                "domainType": "Button",
+                "domainName": "小程序",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "30410",
+                "domainType": "Button",
+                "domainName": "创建分类",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "30420",
+                "domainType": "Button",
+                "domainName": "搜索",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "30430",
+                "domainType": "Button",
+                "domainName": "创建标签",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "30440",
+                "domainType": "Button",
+                "domainName": "编辑标签",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "30450",
+                "domainType": "Button",
+                "domainName": "删除",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "61000",
+                "domainType": "Button",
+                "domainName": "文件管理",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "62000",
+                "domainType": "Button",
+                "domainName": "资料库",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "63000",
+                "domainType": "Button",
+                "domainName": "标签管理",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "30200",
+                "domainType": "MenuItem",
+                "domainName": "组织架构管理",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "112100",
+                "domainType": "Button",
+                "domainName": "组织添加",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "112200",
+                "domainType": "Button",
+                "domainName": "组织详情",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "112300",
+                "domainType": "Button",
+                "domainName": "部门管理员",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "112400",
+                "domainType": "Button",
+                "domainName": "超级管理员",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "110070",
+                "domainType": "Button",
+                "domainName": "身份",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "30600",
+                "domainType": "Applet",
+                "domainName": "配置打卡小程序",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "116100",
+                "domainType": "Button",
+                "domainName": "打卡小程序Banner",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "116110",
+                "domainType": "Button",
+                "domainName": "打卡小程序创建Banner",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "116120",
+                "domainType": "Button",
+                "domainName": "打卡小程序编辑",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "116130",
+                "domainType": "Button",
+                "domainName": "打卡小程序删除",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "116200",
+                "domainType": "Button",
+                "domainName": "打卡小程序每日学习",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "116210",
+                "domainType": "Button",
+                "domainName": "打卡小程序创建打卡活动",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "116220",
+                "domainType": "Button",
+                "domainName": "打卡小程序编辑",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "116230",
+                "domainType": "Button",
+                "domainName": "打卡小程序主题管理",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "116240",
+                "domainType": "Button",
+                "domainName": "打卡小程序状态修改",
+                "perm": "VIEW,CLICK"
+            },{
+                "domainType": "Menu",
+                "domainId": "10000",
+                "domainName": "运营管理",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "10100",
+                "domainType": "MenuItem",
+                "domainName": "交互管理",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "10200",
+                "domainType": "MenuItem",
+                "domainName": "微信公众号交互规则",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "10300",
+                "domainType": "MenuItem",
+                "domainName": "公众号群发历史",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "110100",
+                "domainType": "Button",
+                "domainName": "交互管理创建文章",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "110200",
+                "domainType": "Button",
+                "domainName": "交互管理创建多图文",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "110300",
+                "domainType": "Button",
+                "domainName": "交互管理创建H5",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "110400",
+                "domainType": "Button",
+                "domainName": "交互管理创建社交图片",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "110500",
+                "domainType": "Button",
+                "domainName": "交互管理上传文件",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "110600",
+                "domainType": "Button",
+                "domainName": "交互管理创建链接",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "110700",
+                "domainType": "Button",
+                "domainName": "交互管理公众号群发",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "110800",
+                "domainType": "Button",
+                "domainName": "交互管理公众号自动推送",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "110900",
+                "domainType": "Button",
+                "domainName": "交互管理活动二维码",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "111000",
+                "domainType": "Button",
+                "domainName": "交互管理粉丝推广计划",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "111100",
+                "domainType": "Button",
+                "domainName": "交互管理微信打卡",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "111200",
+                "domainType": "Button",
+                "domainName": "交互管理发起邮件群发",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "111300",
+                "domainType": "Button",
+                "domainName": "交互管理直播间",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "119100",
+                "domainType": "Button",
+                "domainName": "交互规则绑定公众号",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "119200",
+                "domainType": "Button",
+                "domainName": "交互规则自动回复",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "119300",
+                "domainType": "Button",
+                "domainName": "交互规则配置",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "119400",
+                "domainType": "Button",
+                "domainName": "交互规则解绑",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "119500",
+                "domainType": "TabItem",
+                "domainName": "新粉丝",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "119600",
+                "domainType": "TabItem",
+                "domainName": "关键词",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "119700",
+                "domainType": "TabItem",
+                "domainName": "兴趣标签",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "119800",
+                "domainType": "TabItem",
+                "domainName": "交互规则定时计划",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "119900",
+                "domainType": "TabItem",
+                "domainName": "拍照",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "210000",
+                "domainType": "TabItem",
+                "domainName": "活动二维码",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "220000",
+                "domainType": "TabItem",
+                "domainName": "推广计划",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "240000",
+                "domainType": "TabItem",
+                "domainName": "行为推送",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "220100",
+                "domainType": "Button",
+                "domainName": "设置推广图",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "118000",
+                "domainType": "Button",
+                "domainName": "公众号邮件群发详情",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "119000",
+                "domainType": "Button",
+                "domainName": "公众号邮件群发下载",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "21430",
+                "domainType": "MenuItem",
+                "domainName": "邮件群发历史",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "11000",
+                "domainType": "MenuItem",
+                "domainName": "市场仪表盘",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "10600",
+                "domainType": "MenuItem",
+                "domainName": "群发邮件历史",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "30700",
+                "domainType": "Menu",
+                "domainName": "云聚客配置",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "30710",
+                "domainType": "TabItem",
+                "domainName": "活动配置",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "30720",
+                "domainType": "TabItem",
+                "domainName": "话术配置",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "30730",
+                "domainType": "TabItem",
+                "domainName": "数据报表",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "30740",
+                "domainType": "TabItem",
+                "domainName": "中控配置",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "30741",
+                "domainType": "Button",
+                "domainName": "设置成员单微信",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "30742",
+                "domainType": "Button",
+                "domainName": "设置成员多微信",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "118600",
+                "domainType": "Button",
+                "domainName": "有赞店铺许可",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "119210",
+                "domainType": "Button",
+                "domainName": "绑定有赞店铺",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "230000",
+                "domainType": "TabItem",
+                "domainName": "有赞店铺Tab",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "230100",
+                "domainType": "Button",
+                "domainName": "配置有赞积分奖励",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "21400",
+                "domainType": "Menu",
+                "domainName": "历史记录",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "21410",
+                "domainType": "MenuItem",
+                "domainName": "通话历史",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "21420",
+                "domainType": "MenuItem",
+                "domainName": "发送资料历史",
+                "perm": "VIEW,CLICK"
+            },
+            {
+                "domainId": "21430",
+                "domainType": "MenuItem",
+                "domainName": "邮件群发历史",
+                "perm": "VIEW,CLICK"
+            }
+        ]
+    }
+]

@@ -1,0 +1,92 @@
+{{ $appName := default .Chart.Name .Values.nameOverride | trunc 63 | trimSuffix "-" -}}
+{{ $appChart := printf "%s-%s" .Chart.Name .Chart.Version | replace "+" "_" | trunc 63 | trimSuffix "-" -}}
+{{ $releaseName := .Release.Name }}
+{{ $releaseService := .Release.Service }}
+{{ $valuesService := .Values.service}}
+{{- if .Values.slb }}
+{{- range $slbInstance := .Values.slb.instances }}
+---
+apiVersion: v1
+kind: Service
+metadata:
+  annotations:
+    service.beta.kubernetes.io/alicloud-loadbalancer-id: {{ $slbInstance.id }}
+    {{- if $slbInstance.forceoverridelisteners }}
+    service.beta.kubernetes.io/alibaba-cloud-loadbalancer-force-override-listeners: {{ $slbInstance.forceoverridelisteners | quote }}
+    {{- end }}
+  name: {{ $releaseName }}-{{ $slbInstance.name }}
+  labels:
+    app: {{ $appName }}
+    chart: {{ $appChart }}
+    release: {{ $releaseName }}
+    heritage: {{ $releaseService }}
+spec:
+  {{- with $valuesService }}
+  {{- $serviceInfo := . }}
+  type: {{ .type | quote }}
+  ports:
+    {{- range $portInfo := .ports }}
+    {{- if $portInfo.exposeTo }}
+    {{- if eq $portInfo.exposeTo $slbInstance.name }}
+    - name: {{ $portInfo.name }}
+      port: {{ $portInfo.port }}
+      targetPort: {{ $portInfo.targetPort }}
+      {{- if $serviceInfo.type }}
+      {{- if eq $serviceInfo.type "NodePort"}}
+      nodePort: {{ $portInfo.nodePort }}
+      {{- end }}
+      {{- end }}
+      protocol: TCP
+    {{- end }}
+    {{- else }}
+    - name: {{ $portInfo.name }}
+      port: {{ $portInfo.port }}
+      targetPort: {{ $portInfo.targetPort }}
+      {{- if $serviceInfo.type }}
+      {{- if eq $serviceInfo.type "NodePort"}}
+      nodePort: {{ $portInfo.nodePort }}
+      {{- end }}
+      {{- end }}
+      protocol: TCP
+    {{- end }}
+    {{- end }}
+  {{- end }}
+  selector:
+    app: {{ $appName }}
+    release: {{ $releaseName }}
+    {{- end }}
+{{- else }}
+apiVersion: v1
+kind: Service
+metadata:
+        {{- if .Values.service.annotations }}
+  annotations:
+{{ toYaml .Values.service.annotations | indent 4 }}
+        {{- end }}
+  name: {{ .Release.Name }}
+  labels:
+    app: {{ template "template-server.name" . }}
+    chart: {{ template "template-server.chart" . }}
+    release: {{ .Release.Name }}
+    heritage: {{ .Release.Service }}
+spec:
+        {{- with .Values.service }}
+        {{- $serviceInfo := . }}
+  type: {{ .type | quote }}
+  ports:
+          {{- range $portInfo := .ports }}
+    - name: {{ $portInfo.name }}
+      port: {{ $portInfo.port }}
+      targetPort: {{ $portInfo.targetPort }}
+            {{- if $serviceInfo.type }}
+            {{- if eq $serviceInfo.type "NodePort"}}
+      nodePort: {{ $portInfo.nodePort }}
+            {{- end }}
+            {{- end }}
+      protocol: TCP
+        {{- end }}
+        {{- end }}
+  selector:
+    app: {{ template "template-server.name" . }}
+    release: {{ .Release.Name }}
+        {{- end }}

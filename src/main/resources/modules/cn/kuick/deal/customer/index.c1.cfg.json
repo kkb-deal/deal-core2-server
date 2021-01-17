@@ -1,0 +1,10 @@
+{
+    "id": "cn.kuick.deal:customer:c1",
+    "type": "Package",
+    "name": "客户管理",
+    "description": "客户管理，ID范围：115000-116001",
+    "includes": [
+        "/modules/cn/kuick/deal/customer/swarm/index.cfg.json",
+        "/modules/cn/kuick/deal/customer/list/index.c1.cfg.json"
+    ]
+}

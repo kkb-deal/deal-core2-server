@@ -1,0 +1,122 @@
+[
+	{
+		"domainId": "MarketPost",
+		"name":"运营管理",
+		"perms": [
+			{
+				"domainType": "Module",
+				"domainId": "cn.kuick.deal:marketing",
+				"domainName": "运营管理模块",
+				"perm": "VIEW,CLICK"
+			}
+		]
+	},
+	{
+		"domainId": "SalesPost",
+		"name":"销售管理",
+		"perms": [
+			{
+				"domainType": "Module",
+				"domainId": "cn.kuick.deal:sales",
+				"domainName": "销售管理模块",
+				"perm": "VIEW,CLICK"
+			}
+		]
+	},
+	{
+		"domainId": "Sales",
+		"name":"普通销售（企业成员，包括市场人员和销售人员，项目成员）",
+		"perms": [
+			{
+				"domainType": "Module",
+				"domainId": "cn.kuick.deal:customer:s1",
+				"domainName": "客户管理模块",
+				"perm": "VIEW,CLICK"
+			},
+			{
+				"domainType": "Module",
+				"domainId": "cn.kuick.deal:file:s1",
+				"domainName": "文件管理模块",
+				"perm": "VIEW,CLICK"
+			},
+			{
+				"domainType": "Module",
+				"domainId": "cn.kuick.deal:business:s1",
+				"domainName": "企业管理模块",
+				"perm": "VIEW,CLICK"
+			}
+		]
+	},
+	{
+		"domainId": "Admin",
+		"name":"管理员",
+		"perms": [
+			{
+				"domainType": "Module",
+				"domainId": "cn.kuick.deal:customer:s1",
+				"domainName": "客户管理模块",
+				"perm": "VIEW,CLICK"
+			},
+			{
+				"domainType": "Module",
+				"domainId": "cn.kuick.deal:file:s1",
+				"domainName": "文件管理模块",
+				"perm": "VIEW,CLICK"
+			},
+			{
+				"domainType": "Module",
+				"domainId": "cn.kuick.deal:business:s1",
+				"domainName": "企业管理模块",
+				"perm": "VIEW,CLICK"
+			}
+		]
+	},
+	{
+		"domainId": "Master",
+		"name":"超级管理员",
+		"perms": [
+			{
+				"domainType": "Module",
+				"domainId": "cn.kuick.deal:customer:s1",
+				"domainName": "客户管理模块",
+				"perm": "VIEW,CLICK"
+			},
+			{
+				"domainType": "Module",
+				"domainId": "cn.kuick.deal:file:s1",
+				"domainName": "文件管理模块",
+				"perm": "VIEW,CLICK"
+			},
+			{
+				"domainType": "Module",
+				"domainId": "cn.kuick.deal:business:s1",
+				"domainName": "企业管理模块",
+				"perm": "VIEW,CLICK"
+			}
+		]
+	},
+	{
+		"domainId": "Owner",
+		"name":"项目创建人",
+		"perms": [
+			{
+				"domainType": "Module",
+				"domainId": "cn.kuick.deal:customer",
+				"domainName": "客户管理模块",
+				"perm": "VIEW,CLICK"
+			},
+			{
+				"domainType": "Module",
+				"domainId": "cn.kuick.deal:file",
+				"domainName": "文件管理模块",
+				"perm": "VIEW,CLICK"
+			},
+			{
+				"domainType": "Module",
+				"domainId": "cn.kuick.deal:business",
+				"domainName": "企业管理模块",
+				"perm": "VIEW,CLICK"
+			}
+		]
+	}
+]

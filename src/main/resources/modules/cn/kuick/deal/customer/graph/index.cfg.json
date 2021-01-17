@@ -1,0 +1,14 @@
+{
+    "id": "cn.kuick.deal.customer:graph",
+    "type": "Module",
+    "name": "客户关系链",
+    "description": "客户关系链",
+    "menus": [
+        {
+            "id": "116005",
+            "type": "Menu",
+            "name": "客户管理",
+            "description": "客户管理"
+        }
+    ]
+}

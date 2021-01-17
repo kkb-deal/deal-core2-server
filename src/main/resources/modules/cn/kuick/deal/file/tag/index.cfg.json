@@ -1,0 +1,60 @@
+{
+    "id": "cn.kuick.deal.file:tag",
+    "type": "Module",
+    "name": "标签管理",
+    "description": "标签管理，ID范围：30400-30490",
+    "menus": [
+        {
+            "id": "61000",
+            "type": "Menu",
+            "name": "文件管理",
+            "description": "文件管理",
+            "children": [
+                {
+                    "id": "63000",
+                    "type": "MenuItem",
+                    "name": "标签管理",
+                    "description": "标签管理",
+                    "children": []
+                }
+            ]
+        }
+    ],
+    "children":[
+        {
+            "id": "30410",
+            "type": "Button",
+            "name": "创建分类",
+            "description": "创建分类",
+            "children": []
+        },
+        {
+            "id": "30420",
+            "type": "Button",
+            "name": "搜索",
+            "description": "搜索",
+            "children": []
+        },
+        {
+            "id": "30430",
+            "type": "Button",
+            "name": "创建标签",
+            "description": "创建标签",
+            "children": []
+        },
+        {
+            "id": "30440",
+            "type": "Button",
+            "name": "编辑标签",
+            "description": "编辑标签",
+            "children": []
+        },
+        {
+            "id": "30450",
+            "type": "Button",
+            "name": "删除",
+            "description": "删除",
+            "children": []
+        }
+    ]
+}

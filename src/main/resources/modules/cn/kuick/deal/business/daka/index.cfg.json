@@ -1,0 +1,88 @@
+{
+    "id": "cn.kuick.deal.business:daka",
+    "type": "Module",
+    "name": "名片小程序配置",
+    "description": "名片小程序配置，ID范围：116100-116900",
+    "menus": [
+        {
+            "id": "30000",
+            "type": "Menu",
+            "name": "企业管理",
+            "description": "企业管理主菜单",
+            "children": [
+                {
+                    "id": "30600",
+                    "type": "MenuItem",
+                    "name": "打卡小程序配置",
+                    "description": "打卡小程序配置",
+                    "children": []
+                }
+            ]
+        }
+    ],
+    "children":[
+        {
+            "id": "116100",
+            "type": "Button",
+            "name": "打卡小程序Banner",
+            "description": "打卡小程序Banner",
+            "children": []
+        },
+        {
+            "id": "116110",
+            "type": "Button",
+            "name": "创建Banner",
+            "description": "打卡小程序创建Banner",
+            "children": []
+        },
+        {
+            "id": "116120",
+            "type": "Button",
+            "name": "打卡小程序编辑",
+            "description": "打卡小程序编辑",
+            "children": []
+        },
+        {
+            "id": "116130",
+            "type": "Button",
+            "name": "打卡小程序删除",
+            "description": "打卡小程序删除",
+            "children": []
+        },
+        {
+            "id": "116200",
+            "type": "Button",
+            "name": "打卡小程序每日学习",
+            "description": "打卡小程序每日学习",
+            "children": []
+        },
+        {
+            "id": "116210",
+            "type": "Button",
+            "name": "打卡小程序创建打卡活动",
+            "description": "打卡小程序创建打卡活动",
+            "children": []
+        },
+        {
+            "id": "116220",
+            "type": "Button",
+            "name": "打卡小程序编辑",
+            "description": "打卡小程序编辑",
+            "children": []
+        },
+        {
+            "id": "116230",
+            "type": "Button",
+            "name": "打卡小程序主题管理",
+            "description": "打卡小程序主题管理",
+            "children": []
+        },
+        {
+            "id": "116240",
+            "type": "Button",
+            "name": "打卡小程序状态修改",
+            "description": "打卡小程序状态修改",
+            "children": []
+        }
+    ]
+}

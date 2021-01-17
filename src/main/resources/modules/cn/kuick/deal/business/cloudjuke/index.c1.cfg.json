@@ -1,0 +1,89 @@
+{
+    "id": "cn.kuick.deal.business:cloudjuke:c1",
+    "type": "Module",
+    "name": "云聚客配置",
+    "description": "云聚客配置,ID范围：30700-30740",
+    "menus": [
+        {
+            "id": "30000",
+            "type": "Menu",
+            "name": "企业管理",
+            "description": "企业管理主菜单",
+            "children": [
+                {
+                    "id": "30700",
+                    "type": "MenuItem",
+                    "name": "留客管理",
+                    "description": "留客管理",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "id": "870000",
+            "type": "Menu",
+            "name": "新留客管理",
+            "description": "新留客管理",
+            "children": [
+                {
+                    "id": "871000",
+                    "type": "MenuItem",
+                    "name": "营销号管理",
+                    "description": "营销号管理",
+                    "children": []
+                },
+                {
+                    "id": "872000",
+                    "type": "MenuItem",
+                    "name": "营销群管理",
+                    "description": "营销群管理",
+                    "children": []
+                },
+                {
+                    "id": "873000",
+                    "type": "MenuItem",
+                    "name": "质检规则管理",
+                    "description": "质检规则管理",
+                    "children": []
+                }
+            ]
+        }
+    ],
+    "children":[
+        {
+            "id": "30710",
+            "type": "TabItem",
+            "name": "活动配置",
+            "description": "活动配置",
+            "children": []
+        },
+        {
+            "id": "30720",
+            "type": "TabItem",
+            "name": "话术配置",
+            "description": "话术配置",
+            "children": []
+        },
+        {
+            "id": "30730",
+            "type": "TabItem",
+            "name": "数据报表",
+            "description": "数据报表",
+            "children": []
+        },
+        {
+            "id": "30740",
+            "type": "TabItem",
+            "name": "中控配置",
+            "description": "中控配置Tab",
+            "children": []
+        },
+        {
+            "id": "30741",
+            "type": "Button",
+            "name": "设置成员单微信",
+            "description": "一个员工只能绑定一个微信号",
+            "children": []
+        }
+    ]
+}

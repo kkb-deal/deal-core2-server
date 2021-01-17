@@ -1,0 +1,177 @@
+apiVersion: apps/v1
+{{- if .Values.kind }}
+{{- if eq .Values.kind "StatefulSet"}}
+kind: StatefulSet
+{{- else if eq .Values.kind "Deployment"}}
+kind: Deployment
+{{- end }}
+metadata:
+  name: {{ .Release.Name }}
+{{- if eq .Values.kind "Deployment"}}
+  labels:
+    app: {{ template "template-server.name" . }}
+    chart: {{ template "template-server.chart" . }}
+    release: {{ .Release.Name }}
+    heritage: {{ .Release.Service }}
+    env: {{ .Values.env }}
+    language: {{ .Values.language }}
+    serviceKind: {{ .Values.serviceKind }}
+    namespace: {{ .Values.namespace }}
+{{- end }}
+spec:
+  selector:
+    matchLabels:
+      app: {{ template "template-server.name" . }}
+      release: {{ .Release.Name }}
+{{- if eq .Values.kind "StatefulSet"}}
+  serviceName: {{ .Release.Name }}-hs
+  updateStrategy:
+    type: {{ .Values.updateStrategy.type }}
+  podManagementPolicy: {{ .Values.podManagementPolicy }}
+{{- end }}
+  replicas: {{ .Values.replicaCount }}
+  template:
+    metadata:
+    {{- if .Values.armsPilotAutoEnable }} 
+      annotations:
+        armsPilotAutoEnable: 'on'
+        armsPilotCreateAppName: {{ .Values.armsPilotCreateAppName }}
+    {{- end }}
+      labels:
+        app: {{ template "template-server.name" . }}
+        release: {{ .Release.Name }}
+    spec:
+    {{- if eq .Values.kind "StatefulSet"}}
+      affinity:
+        podAntiAffinity:
+          requiredDuringSchedulingIgnoredDuringExecution:
+            - labelSelector:
+                matchExpressions:
+                  - key: "app"
+                    operator: In
+                    values:
+                      - {{ template "template-server.name" . }}
+              topologyKey: "kubernetes.io/hostname"
+    {{- end }}
+      # https://help.aliyun.com/document_detail/86562.html?spm=5176.2020520165.0.0.12f47029kt5UCE
+      imagePullSecrets:
+        - name: {{ .Values.image.imagePullSecrets }}
+    {{- if .Values.container.dnsConfig }}
+      dnsPolicy: {{ .Values.container.dnsPolicy }}
+      dnsConfig:
+        nameservers:
+{{ toYaml .Values.container.dnsConfig.nameservers |indent 10 }}
+        searches:
+          - {{ .Release.Name }}-hs.{{ .Values.namespace }}.svc.cluster.local
+          - {{ .Values.namespace }}.svc.cluster.local
+          - svc.cluster.local
+          - cluster.local
+        options:
+{{ toYaml .Values.container.dnsConfig.options |indent 10 }}
+    {{- end }}
+      restartPolicy: {{ default "Always" .Values.restartPolicy }}
+      containers:
+        - name: {{ .Chart.Name }}
+          image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
+          imagePullPolicy: {{ .Values.image.pullPolicy }}
+          ports:
+          {{- range $containerPort := .Values.container.containerPorts }}
+            - containerPort: {{ $containerPort.containerPort  }}
+              name: {{ $containerPort.name | quote }}
+              protocol: TCP
+          {{- end }}
+          env:
+          {{- range $key, $value := .Values.environment }}
+            - name: {{ $key | quote }}
+              value: {{ $value | quote }}
+          {{- end }}
+        {{- if .Values.command }}
+          command:
+{{ toYaml .Values.command | indent 12 }}
+        {{- end }}
+        {{- if .Values.container.livenessProbe }}
+          livenessProbe:
+          {{- if .Values.container.livenessProbe.command }}
+            exec:
+              command:
+                - sh
+                - -c
+                - {{ .Values.container.livenessProbe.command | quote }}
+          {{- else }}
+{{ toYaml .Values.container.livenessProbe | indent 12 }}
+          {{- end }}
+        {{- end }}
+        {{- if .Values.container.readinessProbe }}
+          readinessProbe:
+          {{- if .Values.container.readinessProbe.command }}
+            exec:
+              command:
+                - sh
+                - -c
+                - {{ .Values.container.readinessProbe.command | quote  }}
+          {{- else }}
+{{ toYaml .Values.container.readinessProbe | indent 12 }}
+          {{- end }}
+          {{- end }}
+          volumeMounts:
+          {{- range $volumeMountInfo  := .Values.volumes }}
+            - name: {{ $volumeMountInfo.name | quote }}
+              mountPath: {{ $volumeMountInfo.mountPath | quote }}
+          {{- end }}
+        {{ if .Values.resources }}
+          resources:
+{{ toYaml .Values.resources | indent 12}}
+        {{- end }}
+    {{- if .Values.securityContext }}
+      securityContext:
+        runAsUser: {{ .Values.securityContext.runAsUser }}
+        fsGroup: {{ .Values.securityContext.fsGroup }}
+    {{- end }}
+    {{- if eq .Values.kind "Deployment"}}
+    {{- if .Values.volumes }}
+      volumes:
+      {{ $Name := .Release.Name }}
+      {{- range $volumeMountInfo  := .Values.volumes }}
+        - name: {{ $volumeMountInfo.name | quote }}
+          persistentVolumeClaim:
+            claimName: deployment-{{ $Name  }}-{{ $volumeMountInfo.name }}-pv-claim
+      {{- end }}
+    {{- end }}
+    {{- end }}
+
+    {{- if .Values.nodeName }}
+      nodeName: {{ .Values.nodeName }}
+    {{- end }}
+
+    {{- with .Values.nodeSelector }}
+      nodeSelector:
+{{ toYaml . | indent 8 }}
+    {{- end }}
+
+    {{- with .Values.affinity }}
+      affinity:
+{{ toYaml . | indent 8 }}
+    {{- end }}
+
+    {{- with .Values.tolerations }}
+      tolerations:
+{{ toYaml . | indent 8 }}
+    {{- end }}
+{{- if eq .Values.kind "StatefulSet"}}
+{{- if .Values.volumes }}
+  volumeClaimTemplates:
+  {{- range $volumeMountInfo  := .Values.volumes }}
+    - metadata:
+        name:  {{ $volumeMountInfo.name | quote }}
+        annotations:
+          volume.beta.kubernetes.io/storage-class: {{ $volumeMountInfo.persistence.storageClass | quote }}
+      spec:
+        storageClassName: {{ $volumeMountInfo.persistence.storageClass | quote }}
+        accessModes:
+{{ toYaml $volumeMountInfo.persistence.accessModes | indent 10 }}
+        resources:
+{{ toYaml $volumeMountInfo.persistence.resources | indent 10 }}
+  {{- end }}
+{{- end }}
+{{- end }}
+{{- end }}

@@ -1,0 +1,10 @@
+{
+    "id": "cn.kuick.deal:file:c5",
+    "type": "Package",
+    "name": "文件管理",
+    "description": "资料库，ID范围：110000-120000",
+    "includes": [
+        "/modules/cn/kuick/deal/file/file/index.c5.cfg.json",
+        "/modules/cn/kuick/deal/file/tag/index.cfg.json"
+    ]
+}

@@ -1,0 +1,23 @@
+FROM registry.kuick.cn/cc/deal-core2-server:base
+
+# Install bash
+RUN sed -i -e 's/dl-cdn/dl-5/' /etc/apk/repositories && apk update && apk add bash libstdc++ && rm -rf /var/cache/apk/*
+
+# Project path
+ENV PROJECT_PATH=/workspace
+
+# Copy project to docker
+COPY . $PROJECT_PATH
+
+# Workdir
+WORKDIR $PROJECT_PATH
+
+# Build faster
+RUN mkdir ~/.gradle
+RUN touch ~/.gradle/gradle.properties && echo "org.gradle.daemon=true" >> ~/.gradle/gradle.properties
+
+# Compile
+RUN ./gradlew clean build
+
+# EntryPoint
+ENTRYPOINT ["./gradlew"]

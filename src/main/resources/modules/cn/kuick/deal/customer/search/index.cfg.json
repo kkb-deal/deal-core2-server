@@ -1,0 +1,29 @@
+{
+    "id": "cn.kuick.deal.customer:search",
+    "type": "Module",
+    "name": "客户高级搜索",
+    "description": "客户高级搜索，ID范围：122000-122009",
+    "children":[
+        {
+            "id": "122001",
+            "type": "Button",
+            "name": "新增虚拟分群",
+            "description": "新增虚拟分群",
+            "children": []
+        },
+        {
+            "id": "122002",
+            "type": "Button",
+            "name": "更新虚拟分群",
+            "description": "更新虚拟分群",
+            "children": []
+        },
+        {
+            "id": "122003",
+            "type": "Button",
+            "name": "高级筛选",
+            "description": "高级筛选",
+            "children": []
+        }
+    ]
+}

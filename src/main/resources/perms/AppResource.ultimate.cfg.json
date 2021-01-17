@@ -1,0 +1,43 @@
+{
+    "id": "cn.kuick:deal:ultimate",
+    "type": "Product",
+    "name": "旗舰版",
+    "description": "大客户版本",
+    "includes": [
+        "/modules/cn/kuick/deal/marketing/index.cfg.json",
+        "/modules/cn/kuick/deal/sales/index.cfg.json",
+        "/modules/cn/kuick/deal/customer/index.cfg.json",
+        "/modules/cn/kuick/deal/file/index.cfg.json",
+        "/modules/cn/kuick/deal/business/index.cfg.json"
+    ],
+    "optionals":[
+        {
+            "id": "cn.kuick.deal:customer",
+            "type": "Package",
+            "name": "客户管理",
+            "description": "客户管理，ID范围：115000-116001",
+            "children": [
+                {
+                    "id": "cn.kuick.deal.customer:graph",
+                    "type": "ModuleRef",
+                    "name": "客户关系链",
+                    "description": "客户关系链"
+                }
+            ]
+        },
+        {
+            "id": "cn.kuick.deal.marketing:interactive",
+            "type": "Package",
+            "name": "交互管理",
+            "description": "交互管理，ID范围：110100-111900",
+            "children":[
+                {
+                    "id": "cn.kuick.deal.marketing.publicnum:behaviour-push",
+                    "type": "ModuleRef",
+                    "name": "行为推送",
+                    "description": "行为触发推送配置模块"
+                }
+            ]
+        }
+    ]
+}

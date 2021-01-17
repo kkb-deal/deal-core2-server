@@ -1,0 +1,248 @@
+[
+	{
+		"type": 1,
+		"action": "access_site",
+		"name": "网站访问",
+		"description": "记录网站访问行为"
+	},
+	{
+		"type": 1,
+		"action": "access_site_end",
+		"name": "网站访问结束",
+		"description": "更新网站访问结束时间"
+	},
+	{
+		"type": 1,
+		"action": "web_page_view",
+		"name": "页面浏览",
+		"description": "记录页面浏览行为"
+	},
+	{
+		"type": 1,
+		"action": "web_page_leave",
+		"name": "页面浏览结束",
+		"description": "更新页面浏览结束时间"
+	},
+	{
+		"type": 1,
+		"action": "link_leave_log",
+		"name": "链接浏览结束",
+		"description": "更新链接浏览结束时间"
+	},
+	{
+		"type": 1,
+		"action": "link_view_clue",
+		"name": "链接浏览填写表单",
+		"description": "浏览链接时的填写表单行为"
+	},
+	{
+		"type": 1,
+		"action": "link_spread",
+		"name": "链接转发",
+		"description": "浏览链接时的转发链接行为"
+	},
+	{
+		"type": 1,
+		"action": "file_view_duration",
+		"name": "文件资料链接浏览翻页",
+		"description": "记录文件资料链接浏览翻页行为"
+	},
+	{
+		"type": 1,
+		"action": "app_launch",
+		"name": "App启动",
+		"description": "记录App启动行为"
+	},
+	{
+		"type": 1,
+		"action": "app_launch_end",
+		"name": "App启动结束",
+		"description": "更新App自动结束时间"
+	},
+	{
+		"type": 1,
+		"action": "view_app_page",
+		"name": "浏览App页面",
+		"description": "记录浏览App页面行为"
+	},
+	{
+		"type": 1,
+		"action": "entry_app",
+		"name": "进入App",
+		"description": "记录进入App行为"
+	},
+	{
+		"type": 1,
+		"action": "exit_app",
+		"name": "退出App",
+		"description": "记录退出App行为"
+	},
+	{
+		"type": 1,
+		"action": "scan_activity_qrcode",
+		"name": "扫描活动二维码",
+		"description": "记录扫描活动二维码行为"
+	},
+	{
+		"type": 1,
+		"action": "scan_promotion_plan_qrcode",
+		"name": "扫描推广计划二维码",
+		"description": "记录扫描推广计划二维码行为"
+	},
+	{
+		"type": 1,
+		"action": "trigger_promotion_plan",
+		"name": "触发推广计划",
+		"description": "记录触发推广计划行为"
+	},
+	{
+		"type": 1,
+		"action": "weixin_send_text",
+		"name": "粉丝向公众号发消息",
+		"description": "记录公众号粉丝向公众号发消息行为"
+	},
+	{
+		"type": 1,
+		"action": "remote_demo",
+		"name": "远程演示",
+		"description": "记录远程演示行为"
+	},
+	{
+		"type": 1,
+		"action": "submit_form",
+		"name": "提交表单",
+		"description": "记录提交表单行为"
+	},
+	{
+		"type": 1,
+		"action": "call_end",
+		"name": "打电话结束",
+		"description": "记录打电话结束行为"
+	},
+	{
+		"type": 1,
+		"action": "daka",
+		"name": "打卡",
+		"description": "记录打卡行为"
+	},
+	{
+		"type": 1,
+		"action": "card_open",
+		"name": "名片打开",
+		"description": "记录名片打开行为"
+	},
+	{
+		"type": 1,
+		"action": "card_spread",
+		"name": "名片转发",
+		"description": "记录名片转发行为"
+	},
+	{
+		"type": 1,
+		"action": "attend_meeting_record",
+		"name": "参会记录",
+		"description": "记录参会行为"
+	},
+	{
+		"type": 1,
+		"action": "audio_record",
+		"name": "录音记录",
+		"description": "记录录音行为"
+	},
+	{
+		"type": 1,
+		"action": "weixin_follow",
+		"name": "关注公众号",
+		"description": "关注公众号行为"
+	},
+	{
+		"type": 1,
+		"action": "cancel_weixin_follow",
+		"name": "取消关注公众号",
+		"description": "取消关注公众号行为"
+	},
+	{
+		"type": 1,
+		"action": "chat_record",
+		"name": "聊天记录",
+		"description": "聊天记录行为"
+	},
+	{
+		"type": 1,
+		"action": "visit_record",
+		"name": "拜访记录",
+		"description": "拜访记录行为"
+	},
+	{
+		"type": 1,
+		"action": "weixin_scan_qrcode",
+		"name": "扫描二维码",
+		"description": "扫描二维码行为"
+	},
+	{
+		"type": 1,
+		"action": "create",
+		"name": "创建客户",
+		"description": "创建客户行为"
+	},
+	{
+		"type": 1,
+		"action": "customer_merged",
+		"name": "合并客户",
+		"description": "合并客户行为"
+	},
+	{
+		"type": 1,
+		"action": "send_data_by_mail",
+		"name": "邮件发资料",
+		"description": "邮件发资料行为"
+	},
+	{
+		"type": 1,
+		"action": "send_data_by_officialaccount",
+		"name": "公众号发资料",
+		"description": "公众号发资料行为"
+	},
+	{
+		"type": 1,
+		"action": "send_data_by_other_way",
+		"name": "其他方式发资料",
+		"description": "其他方式发资料行为"
+	},
+	{
+		"type": 1,
+		"action": "send_data_by_wechat",
+		"name": "微信发资料",
+		"description": "微信发资料行为"
+	},
+	{
+		"type": 1,
+		"action": "send_message",
+		"name": "发资料",
+		"description": "发资料行为"
+	},
+	{
+		"type": 1,
+		"action": "card_chat_start",
+		"name": "名片会话开始",
+		"description": "名片会话开始行为"
+	},
+	{
+		"type": 1,
+		"action": "card_chat_send_msg",
+		"name": "名片会话发消息",
+		"description": "名片会话发消息行为"
+	},
+	{
+		"type": 1,
+		"action": "card_chat_customer",
+		"name": "名片会话客户",
+		"description": "名片会话客户"
+	},
+	{
+		"type": 1,
+		"action": "pull_fans_reward",
+		"name": "拉粉奖励推送",
+		"description": "拉粉奖励推送行为"
+	}
+]

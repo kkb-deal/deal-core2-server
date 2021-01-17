@@ -1,0 +1,6 @@
+<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ehcache.xsd">
+    <cache name="DealAppMemberCache" maxEntriesLocalHeap="200" timeToLiveSeconds="20" />
+    <cache name="customerswarmmeta" maxEntriesLocalHeap="200" timeToLiveSeconds="20" />
+    <cache name="extpoint" maxEntriesLocalHeap="200" timeToLiveSeconds="20" />
+    <cache name="category" maxEntriesLocalHeap="200" timeToLiveSeconds="20" />
+</ehcache>

@@ -1,0 +1,87 @@
+buildscript {
+    ext {
+        springBootVersion = '1.4.5.RELEASE'
+        powermockVersion = '1.6.6'
+    }
+    repositories {
+        maven { url "https://nexus.kuick.cn/nexus/content/groups/public/"}
+        jcenter { url "https://nexus.kuick.cn/nexus/content/repositories/jcenter/"}
+        mavenCentral()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+        classpath('com.github.jengelman.gradle.plugins:gradle-processes:0.3.0')
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: 'eclipse'
+apply plugin: 'org.springframework.boot'
+group = 'cn.kuick.deal'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+    maven { url "https://nexus.kuick.cn/nexus/content/groups/public/"}
+    jcenter { url "https://nexus.kuick.cn/nexus/content/repositories/jcenter/"}
+    maven { url 'https://nexus.kuick.cn/nexus/content/repositories/spring-libs/'}
+    mavenCentral()
+}
+
+dependencyManagement {
+    imports {
+        mavenBom 'org.springframework.cloud:spring-cloud-dependencies:Camden.SR6'
+    }
+}
+
+dependencies {
+    compile 'org.springframework.boot:spring-boot-starter-jdbc'
+    compile 'org.springframework.boot:spring-boot-starter-data-jpa'
+    compile 'org.springframework.boot:spring-boot-starter-web'
+    compile 'org.springframework.boot:spring-boot-starter-cache'
+    compile 'org.springframework.boot:spring-boot-starter-data-redis'
+    compile 'org.springframework.boot:spring-boot-starter-actuator'
+//    compile 'org.springframework.cloud:spring-cloud-starter-config'
+    compile 'org.springframework.cloud:spring-cloud-starter-stream-kafka'
+    compile 'com.github.kuhn-he:elastic-job-lite-spring-boot-starter:2.1.5'
+    compile 'org.apache.curator:curator-client:2.12.0'
+    compile 'org.apache.commons:commons-lang3:3.4'
+    compile 'com.alibaba:druid:1.0.15'
+    compile 'mysql:mysql-connector-java:5.1.13'
+    compile 'net.sf.json-lib:json-lib:2.2.1:jdk15'
+    compile 'org.json:json:20140107'
+    compile 'com.googlecode.json-simple:json-simple:1.1.1'
+    compile 'org.apache.httpcomponents:httpmime:4.5.3'
+    compile 'redis.clients:jedis:2.7.2'
+    compile 'org.redisson:redisson:3.10.5'
+	compile 'com.google.code.gson:gson:2.6.1'
+    compile 'cz.mallat.uasparser:uasparser:0.6.0'
+    compile 'net.sourceforge.jregex:jregex:1.2_01'
+    compile 'net.sf.ehcache:ehcache:2.10.4'
+	compile 'io.projectreactor:reactor-core:3.2.6.RELEASE'
+	compile 'org.apache.poi:poi:3.12'
+    compile 'org.apache.poi:poi-ooxml:3.12'
+    compile group: 'net.sf.jxls', name: 'jxls-core', version: '1.0.3'
+    compile 'org.projectlombok:lombok:1.18.4'
+    compile 'com.alibaba:fastjson:1.2.67'
+
+    //    swagger config
+    compile 'io.springfox:springfox-swagger2:2.7.0'
+    compile 'io.springfox:springfox-swagger-ui:2.7.0'
+    compile 'com.alibaba.boot:nacos-config-spring-boot-starter:0.2.3'
+//    compile 'org.springframework.cloud:spring-cloud-starter-alibaba-nacos-discovery:0.2.1.RELEASE'
+    compile 'org.springframework.cloud:spring-cloud-starter-alibaba-sentinel:0.1.2.RELEASE'
+    compile group: 'joda-time', name: 'joda-time', version: '2.1'
+}
+
+configurations.all {
+    exclude group: "org.slf4j", module: "slf4j-log4j12"
+}
+
+task wrapper(type: Wrapper){
+    gradleVersion='4.6'
+    distributionUrl='https://cdn-img-oss-prod.kuick.cn/tool/gradle-4.6-bin.zip'
+}
+

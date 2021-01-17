@@ -1,0 +1,53 @@
+{
+    "id": "cn.kuick.deal.business:organization",
+    "type": "Module",
+    "name": "组织架构",
+    "description": "组织架构,ID范围：112000-112900",
+    "menus": [
+        {
+            "id": "30000",
+            "type": "Menu",
+            "name": "企业管理",
+            "description": "企业管理主菜单",
+            "children": [
+                {
+                    "id": "30200",
+                    "type": "MenuItem",
+                    "name": "组织架构管理",
+                    "description": "组织架构管理",
+                    "children": []
+                }
+            ]
+        }
+    ],
+    "children":[
+        {
+            "id": "112100",
+            "type": "Button",
+            "name": "组织添加",
+            "description": "组织添加",
+            "children": []
+        },
+        {
+            "id": "112200",
+            "type": "Button",
+            "name": "组织详情",
+            "description": "组织详情",
+            "children": []
+        },
+        {
+            "id": "112300",
+            "type": "Button",
+            "name": "部门管理员",
+            "description": "部门管理员",
+            "children": []
+        },
+        {
+            "id": "112400",
+            "type": "Button",
+            "name": "超级管理员",
+            "description": "超级管理员",
+            "children": []
+        }
+    ]
+}

@@ -1,0 +1,189 @@
+{
+    "id": "cn.kuick.deal.customer:list",
+    "type": "Module",
+    "name": "客户管理",
+    "description": "客户管理，ID范围：115000-116001",
+    "menus": [
+        {
+            "id": "116005",
+            "type": "Menu",
+            "name": "客户管理",
+            "description": "客户管理",
+            "children": [
+                {
+                    "id": "116006",
+                    "type": "MenuItem",
+                    "name": "客户管理",
+                    "description": "客户管理",
+                    "children": []
+                }
+            ]
+        }
+    ],
+    "children":[
+        {
+            "id": "115000",
+            "type": "Button",
+            "name": "筛选",
+            "description": "筛选",
+            "children": []
+        },
+        {
+            "id": "115100",
+            "type": "Button",
+            "name": "创建客户",
+            "description": "创建客户",
+            "children": []
+        },
+        {
+            "id": "115200",
+            "type": "Button",
+            "name": "批量创建客户",
+            "description": "批量创建客户",
+            "children": []
+        },
+        {
+            "id": "115300",
+            "type": "Button",
+            "name": "搜索",
+            "description": "搜索",
+            "children": []
+        },
+        {
+            "id": "115400",
+            "type": "Button",
+            "name": "转移分组",
+            "description": "转移分组",
+            "children": []
+        },
+        {
+            "id": "115500",
+            "type": "Button",
+            "name": "转让客户",
+            "description": "转让客户",
+            "children": []
+        },
+        {
+            "id": "115600",
+            "type": "Button",
+            "name": "加入分群",
+            "description": "加入分群",
+            "children": []
+        },
+        {
+            "id": "115800",
+            "type": "Button",
+            "name": "群发邮件",
+            "description": "群发邮件",
+            "children": []
+        },
+        {
+            "id": "116001",
+            "type": "Button",
+            "name": "发送公众号二维码",
+            "description": "发送公众号二维码",
+            "children": []
+        },{
+            "id": "116002",
+            "type": "TabItem",
+            "name": "概览",
+            "description": "概览",
+            "children": []
+        },{
+            "id": "116003",
+            "type": "TabItem",
+            "name": "动态",
+            "description": "动态",
+            "children": []
+        },{
+            "id": "116004",
+            "type": "TabItem",
+            "name": "记录",
+            "description": "记录",
+            "children": []
+        },{
+            "id": "10411",
+            "type": "Button",
+            "name": "数据统计",
+            "description": "数据统计",
+            "children": []
+        },
+        {
+            "id": "10412",
+            "type": "Button",
+            "name": "资料发送",
+            "description": "资料发送",
+            "children": []
+        },
+        {
+            "id": "10413",
+            "type": "Button",
+            "name": "资料浏览",
+            "description": "资料浏览",
+            "children": []
+        },
+        {
+            "id": "10414",
+            "type": "Button",
+            "name": "表单填写",
+            "description": "表单填写",
+            "children": []
+        },
+        {
+            "id": "10415",
+            "type": "Button",
+            "name": "网站访问",
+            "description": "网站访问",
+            "children": []
+        },
+        {
+            "id": "10416",
+            "type": "Button",
+            "name": "App启动",
+            "description": "App启动",
+            "children": []
+        },
+        {
+            "id": "10417",
+            "type": "Button",
+            "name": "通话记录",
+            "description": "通话记录",
+            "children": []
+        },
+        {
+            "id": "10418",
+            "type": "Button",
+            "name": "远程演示",
+            "description": "远程演示",
+            "children": []
+        },
+        {
+            "id": "10419",
+            "type": "Button",
+            "name": "微信关注",
+            "description": "微信关注",
+            "children": []
+        },
+        {
+            "id": "10420",
+            "type": "Button",
+            "name": "关注的微信公众号",
+            "description": "关注的微信公众号",
+            "children": []
+        },
+        {
+            "id": "10421",
+            "type": "Button",
+            "name": "已标定的平台设备",
+            "description": "已标定的平台设备",
+            "children": []
+        },
+        {
+            "id": "10422",
+            "type": "Button",
+            "name": "详细动态",
+            "description": "详细动态",
+            "children": []
+        }
+    ]
+}
